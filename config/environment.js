@@ -6,12 +6,6 @@ module.exports = function(environment) {
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
-    contentSecurityPolicy: {
-      'script-src': "'self' 'unsafe-inline' 'unsafe-eval' apis.google.com storage.googleapis.com",
-      'font-src': "'self' data: fonts.gstatic.com",
-      'style-src': "'self' 'unsafe-inline' storage.googleapis.com fonts.googleapis.com",
-      'frame-src': "'self' 'unsafe-inline' accounts.google.com"
-    },
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
@@ -22,7 +16,15 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
-    }
+
+      // Offline?
+    },
+    contentSecurityPolicy: {
+      'script-src': "'self' 'unsafe-inline' 'unsafe-eval' apis.google.com storage.googleapis.com",
+      'font-src': "'self' data: fonts.gstatic.com",
+      'style-src': "'self' 'unsafe-inline' storage.googleapis.com fonts.googleapis.com",
+      'frame-src': "'self' 'unsafe-inline' accounts.google.com"
+    },
   };
 
   if (environment === 'development') {
@@ -31,6 +33,12 @@ module.exports = function(environment) {
     // ENV.APP.LOG_TRANSITIONS = true;
     // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
     // ENV.APP.LOG_VIEW_LOOKUPS = true;
+    ENV.APP.GOOGLE_API_KEY = process.env.GOOGLE_API_KEY;
+    ENV.APP.YOUTUBE_CLIENT_ID = process.env.YOUTUBE_CLIENT_ID;
+
+    ENV.APP.GOOGLE_AUTH_RUL = 'https://accounts.google.com/o/oauth2/auth';
+    ENV.APP.YOUTUBE_HOST = 'https://www.googleapis.com/youtube/v3';    
+    ENV.APP.GOOGLE_SCOPES = 'https://www.googleapis.com/auth/plus.me';
   }
 
   if (environment === 'test') {
@@ -46,7 +54,12 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
+    ENV.APP.GOOGLE_API_KEY = 'AIzaSyAM8s6IC3hZzjbS3jJ95j3uvMKjs7J-6Ek';
+    ENV.APP.YOUTUBE_CLIENT_ID = '538048893232-6ravl5ktsabe8tlsne8jd9rj1kga7oq3.apps.googleusercontent.com';
 
+    ENV.APP.GOOGLE_AUTH_RUL = 'https://accounts.google.com/o/oauth2/auth';
+    ENV.APP.YOUTUBE_HOST = 'https://www.googleapis.com/youtube/v3';    
+    ENV.APP.GOOGLE_SCOPES = 'https://www.googleapis.com/auth/youtube';
   }
 
   return ENV;

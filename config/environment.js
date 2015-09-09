@@ -33,12 +33,12 @@ module.exports = function(environment) {
     // ENV.APP.LOG_TRANSITIONS = true;
     // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
     // ENV.APP.LOG_VIEW_LOOKUPS = true;
-    ENV.APP.GOOGLE_API_KEY = process.env.GOOGLE_API_KEY;
-    ENV.APP.YOUTUBE_CLIENT_ID = process.env.YOUTUBE_CLIENT_ID;
+    ENV.APP.GOOGLE_API_KEY = '***REMOVED***-6Ek';
+    ENV.APP.YOUTUBE_CLIENT_ID = '***REMOVED***';
 
     ENV.APP.GOOGLE_AUTH_RUL = '***REMOVED***';
     ENV.APP.YOUTUBE_HOST = 'https://www.googleapis.com/youtube/v3';    
-    ENV.APP.GOOGLE_SCOPES = 'https://www.googleapis.com/auth/plus.me';
+    ENV.APP.GOOGLE_SCOPES = 'https://www.googleapis.com/auth/youtube';
   }
 
   if (environment === 'test') {
@@ -54,12 +54,12 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    ENV.APP.GOOGLE_API_KEY = '***REMOVED***-6Ek';
-    ENV.APP.YOUTUBE_CLIENT_ID = '***REMOVED***';
+    ENV.APP.GOOGLE_API_KEY = process.env.GOOGLE_API_KEY;
+    ENV.APP.YOUTUBE_CLIENT_ID = process.env.YOUTUBE_CLIENT_ID;
 
     ENV.APP.GOOGLE_AUTH_RUL = '***REMOVED***';
     ENV.APP.YOUTUBE_HOST = 'https://www.googleapis.com/youtube/v3';    
-    ENV.APP.GOOGLE_SCOPES = 'https://www.googleapis.com/auth/youtube';
+    ENV.APP.GOOGLE_SCOPES = 'https://www.googleapis.com/auth/plus.me';
   }
 
   return ENV;

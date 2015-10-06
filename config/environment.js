@@ -20,10 +20,12 @@ module.exports = function(environment) {
       // Offline?
     },
     contentSecurityPolicy: {
-      'script-src': "'self' 'unsafe-inline' 'unsafe-eval' apis.google.com storage.googleapis.com",
-      'font-src': "'self' data: fonts.gstatic.com",
-      'style-src': "'self' 'unsafe-inline' storage.googleapis.com fonts.googleapis.com",
-      'frame-src': "'self' 'unsafe-inline' accounts.google.com"
+      'script-src':  "'self' 'unsafe-inline' 'unsafe-eval' apis.google.com storage.googleapis.com",
+      'font-src':    "'self' data: fonts.gstatic.com",
+      'style-src':   "'self' 'unsafe-inline' storage.googleapis.com fonts.googleapis.com",
+      'frame-src':   "'self' 'unsafe-inline' accounts.google.com",
+      'connect-src': "'self' localhost:3000",
+      'img-src':     "'self' s3.amazonaws.com lorempixel.com"
     },
   };
 

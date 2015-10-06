@@ -1,0 +1,20 @@
+.channel-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 32px;
+  float: right;
+}
+
+.lazy-image-container {
+  min-height: 10px;
+}
+
+.lazy-image-placeholder {
+  position: inherit;
+  top: 0%;
+  right: 0%;
+}
+
+.mdl-data-table__cell--non-numeric {
+ padding-bottom: 12px !important;
+}

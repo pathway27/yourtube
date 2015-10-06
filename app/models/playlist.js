@@ -1,8 +1,9 @@
-import Model, { attr, hasMany } from "ember-data/model";
+import DS from "ember-data";
 
-export default Model.extend({
-  name: attr('string'),
-  videos: hasMany()
+export default DS.Model.extend({
+  name: DS.attr('string'),
+  channel: DS.belongsTo('channe'),
+  videos: DS.hasMany('video')
 });
 
 /*

@@ -1,8 +1,8 @@
 <div class="mdl-grid">
-  
-  <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp
-mdl-color--white mdl-cell mdl-cell--4-col">
-    
+
+  <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable
+  mdl-shadow--2dp mdl-color--white mdl-cell mdl-cell--4-col">
+
     <thead>
       <tr>
         <th class="mdl-data-table__cell--non-numeric">Channel</th>
@@ -10,9 +10,18 @@ mdl-color--white mdl-cell mdl-cell--4-col">
     </thead>
 
     <tbody>
+
+    {{#each model.channels as |channel|}}
       <tr>
-        <td class="mdl-data-table__cell--non-numeric">Acrylic (Transparent)</td>
+        <td class="mdl-data-table__cell--non-numeric">
+          
+          {{channel.title}}
+          {{lazy-image url=channel.thumbnails.high class='channel-avatar'}}
+            
+        </td>
       </tr>
+    {{/each}}
+
       <tr>
         <td class="mdl-data-table__cell--non-numeric">Plywood (Birch)</td>
       </tr>

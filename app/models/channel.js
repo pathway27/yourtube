@@ -1,11 +1,11 @@
-import Model, { attr, belongsTo } from "ember-data/model";
+import DS from "ember-data";
 
-export default Model.extend({
-  title: attr('string'),
-  description: attr('string'),
-  publishedAt: attr('date'),
-  uploads: belongsTo('playlist'),
-  thumbnails: attr()
+export default DS.Model.extend({
+  title: DS.attr('string'),
+  description: DS.attr('string'),
+  publishedAt: DS.attr('date'),
+  uploads: DS.belongsTo('playlist'),
+  thumbnails: DS.attr()
 });
 
 /*

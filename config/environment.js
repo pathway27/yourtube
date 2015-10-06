@@ -19,12 +19,30 @@ module.exports = function(environment) {
 
       // Offline?
     },
+
     contentSecurityPolicy: {
-      'script-src': "'self' 'unsafe-inline' 'unsafe-eval' apis.google.com storage.googleapis.com",
-      'font-src': "'self' data: fonts.gstatic.com",
-      'style-src': "'self' 'unsafe-inline' storage.googleapis.com fonts.googleapis.com",
-      'frame-src': "'self' 'unsafe-inline' accounts.google.com"
     },
+
+    // this doesn't works
+    torri: {
+      // a 'session' property will be injected on routes and controllers
+      providers: {
+        'google-oauth2': {
+          apiKey:      '538048893232-6ravl5ktsabe8tlsne8jd9rj1kga7oq3.apps.googleusercontent.com',
+          redirectUri: '/gapi-redirect'
+        }
+      }
+    }
+  };
+
+  // this works
+  ENV['torii'] = {
+    providers: {
+      'google-oauth2': {
+        apiKey: '538048893232-6ravl5ktsabe8tlsne8jd9rj1kga7oq3.apps.googleusercontent.com',
+        redirectUri: 'http://localhost:4200'
+      }
+    }
   };
 
   if (environment === 'development') {

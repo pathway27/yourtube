@@ -3,11 +3,20 @@
     <div class="mdl-layout__header-row">
       <!-- Title -->
       <span class="mdl-layout-title">{{#link-to 'index'}}Title{{/link-to}}</span>
+      
       <!-- Add spacer, to align navigation to the right -->
       <div class="mdl-layout-spacer"></div>
       <!-- Navigation -->
       <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="">Login</a>
+        {{#if session.isWorking}}
+          One sec while we get you signed in...
+        {{else}}
+          {{error}}
+          <a class="mdl-navigation__link" href="#" {{action 'signInViaGoogle'}}>
+            Sign In with Google
+          </a>
+        {{/if}}
+
         {{#link-to 'about' class="mdl-navigation__link"}}
           About
         {{/link-to}}

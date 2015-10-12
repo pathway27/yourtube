@@ -12,9 +12,10 @@ export function initialize(applicationInstance) {
 
       console.log('youtube loaded');
       console.log(applicationInstance);
+      
       //immediate oauth here
-
-      api.immediate();
+      // only works for first user/ first user on google.com
+      //api.immediate();
     });
   };
 

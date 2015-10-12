@@ -3,21 +3,29 @@ import config from '../config/environment';
 
 export default Ember.Service.extend({
   authenticated: false,
+  token: null,
+  currentUser: null,
 
   init() {
-    // initalizer 
-    console.log('Yourtube Service');
     this._super();
+    console.log('Yourtube Service');
   },
 
   handleAuthResult(token) {
     if (token && !token.error) {
       this.set('authenticated', true);
-      console.log('authenticated');
+      this.set('token', token);
       //route to authenticated
     } else {
       console.log(token.error);
     }
+  },
+
+  setCurrentUser() {
+    //gapi.me.then(function(user) {
+    //  this.set('currentUser', res);
+    //});
+    return false;
   },
 
   subscriptions() {
@@ -37,15 +45,17 @@ export default Ember.Service.extend({
     var clientId = config.APP.YOUTUBE_CLIENT_ID,
           scopes = config.APP.GOOGLE_SCOPES;
     var authObject = {client_id: clientId, scope: scopes, immediate: false};
-    
-    gapi.auth.authorize(authObject, this.get('handleAuthResult'));
+    var self = this;
+
+    gapi.auth.authorize(authObject, self.handleAuthResult.bind(this));
   },
 
   immediate() {
     var clientId = config.APP.YOUTUBE_CLIENT_ID,
           scopes = config.APP.GOOGLE_SCOPES;
     var authObject = {client_id: clientId, scope: scopes, immediate: true};
-    
-    gapi.auth.authorize(authObject, this.get('handleAuthResult'));
+    var self = this;
+
+    gapi.auth.authorize(authObject, self.handleAuthResult.bind(this));
   }
 });

@@ -7,7 +7,12 @@
       <div class="mdl-layout-spacer"></div>
       <!-- Navigation -->
       <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="" {{action "gapi"}}>Login</a>
+        {{#unless authenticated}}
+          <a class="mdl-navigation__link" href="" {{action "gapi"}}>Login</a>
+        {{else}}
+          Current User Component
+        {{/unless}}
+
         {{#link-to 'about' class="mdl-navigation__link"}}
           About
         {{/link-to}}

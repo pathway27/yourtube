@@ -6,9 +6,13 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('subscriptions', function() {
+    this.route('channel', { path: '/channel/:channel_id' }, function() {
+      this.route('video', { path: '/video/:video_id' });
+    });
+  });
+
   this.route('about');
-  this.resource('channels');
-  this.resource('videos');
 });
 
 export default Router;

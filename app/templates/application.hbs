@@ -10,7 +10,7 @@
         {{#unless authenticated}}
           <a class="mdl-navigation__link" href="" {{action "gapi"}}>Login</a>
         {{else}}
-          Current User Component
+          {{current-user title=currentUser.id thumbnail=currentUser.snippet.thumbnails.default.url}}
         {{/unless}}
 
         {{#link-to 'about' class="mdl-navigation__link"}}

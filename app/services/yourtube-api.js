@@ -15,6 +15,8 @@ export default Ember.Service.extend({
     if (token && !token.error) {
       this.set('authenticated', true);
       this.set('token', token);
+      if (this.get('currentUser') === null)
+        this.setCurrentUser();
       //route to authenticated
     } else {
       console.log(token.error);
@@ -25,7 +27,12 @@ export default Ember.Service.extend({
     //gapi.me.then(function(user) {
     //  this.set('currentUser', res);
     //});
-    return false;
+    return gapi.client.youtube.channels.list({
+      part: 'snippet,contentDetails',
+      mine: true
+    }).then(function(user) {
+      return this.set('currentUser', user.result.items[0]);
+    }.bind(this));
   },
 
   subscriptions() {

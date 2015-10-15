@@ -25,7 +25,7 @@ module.exports = function(environment) {
       'style-src':   "'self' 'unsafe-inline' storage.googleapis.com fonts.googleapis.com",
       'frame-src':   "'self' 'unsafe-inline' accounts.google.com content.googleapis.com",
       'connect-src': "'self' localhost:3000",
-      'img-src':     "'self' s3.amazonaws.com lorempixel.com csi.gstatic apis.google.com i.ytimg.com"
+      'img-src':     "'self' s3.amazonaws.com lorempixel.com csi.gstatic apis.google.com i.ytimg.com yt3.ggpht.com"
     },
   };
 

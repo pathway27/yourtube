@@ -15,7 +15,7 @@ export function initialize(applicationInstance) {
       
       //immediate oauth here
       // only works for first user/ first user on google.com
-      //api.immediate();
+      //api.oauth(true);
     });
   };
 

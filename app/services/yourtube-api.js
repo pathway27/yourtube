@@ -15,8 +15,9 @@ export default Ember.Service.extend({
     if (token && !token.error) {
       this.set('authenticated', true);
       this.set('token', token);
-      if (this.get('currentUser') === null)
+      if (this.get('currentUser') === null) {
         this.setCurrentUser();
+      }
       //route to authenticated
     } else {
       console.log(token.error);
@@ -48,19 +49,10 @@ export default Ember.Service.extend({
     });
   },
 
-  oauth() {
+  oauth(immediate=false) {
     var clientId = config.APP.YOUTUBE_CLIENT_ID,
           scopes = config.APP.GOOGLE_SCOPES;
-    var authObject = {client_id: clientId, scope: scopes, immediate: false};
-    var self = this;
-
-    gapi.auth.authorize(authObject, self.handleAuthResult.bind(this));
-  },
-
-  immediate() {
-    var clientId = config.APP.YOUTUBE_CLIENT_ID,
-          scopes = config.APP.GOOGLE_SCOPES;
-    var authObject = {client_id: clientId, scope: scopes, immediate: true};
+    var authObject = {client_id: clientId, scope: scopes, immediate: immediate};
     var self = this;
 
     gapi.auth.authorize(authObject, self.handleAuthResult.bind(this));

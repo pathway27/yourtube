@@ -5,8 +5,9 @@ export default Ember.Route.extend({
   beforeModel() {
     var auth = this.get('yourtube.authenticated');
 
-    if (!auth)
+    if (!auth) {
       this.transitionTo('index');
+    }
   },
 
   actions: {

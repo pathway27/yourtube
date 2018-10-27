@@ -2,7 +2,7 @@ import DS from "ember-data";
 
 export default DS.Model.extend({
   name: DS.attr('string'),
-  channel: DS.belongsTo('channe'),
+  channel: DS.belongsTo('channel'),
   videos: DS.hasMany('video')
 });
 

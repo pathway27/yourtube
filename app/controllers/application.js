@@ -1,18 +1,22 @@
 import Ember from "ember";
 
-export default Ember.Controller.extend({
+Ember.Controller.reopen({
   yourtube: Ember.inject.service('yourtube-api'),
-
+  
   authenticated: Ember.computed.alias('yourtube.authenticated'),
   currentUser: Ember.computed.alias('yourtube.currentUser'),
+})
 
-  authChanged: Ember.observer('authenticated', function() {
-    var auth = this.get('authenticated');
+export default Ember.Controller.extend({
 
-    if (auth) {
-      this.transitionToRoute('subscriptions');
-    }
-  })
+
+  // authChanged: Ember.observer('authenticated', function() {
+  //   var auth = this.get('authenticated');
+
+  //   if (auth) {
+  //     this.transitionToRoute('subscriptions');
+  //   }
+  // })
 });
 
 /*

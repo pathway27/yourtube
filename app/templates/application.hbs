@@ -1,32 +1,53 @@
+<!-- Always shows a header, even in smaller screens. -->
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
   <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
       <!-- Title -->
-      <span class="mdl-layout-title">{{#link-to 'index'}}Title{{/link-to}}</span>
+      <span class="mdl-layout-title">{{#link-to 'index'}}YourTube{{/link-to}}</span>
       <!-- Add spacer, to align navigation to the right -->
       <div class="mdl-layout-spacer"></div>
-      <!-- Navigation -->
-      <nav class="mdl-navigation">
-        {{#unless authenticated}}
-          <a class="mdl-navigation__link" href="" {{action "gapi"}}>Login</a>
-        {{else}}
-          {{current-user title=currentUser.snippet.title thumbnail=currentUser.snippet.thumbnails.default.url}}
-        {{/unless}}
-
-        {{#link-to 'about' class="mdl-navigation__link"}}
-          About
-        {{/link-to}}
+      <!-- Navigation. We hide it in small screens. -->
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        {{!-- <a class="mdl-navigation__link" href="">Link</a>
         <a class="mdl-navigation__link" href="">Link</a>
         <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a> --}}
       </nav>
+      
+      <!-- Right aligned menu below button -->
+      
+      
+      <button id="demo-menu-lower-right"
+                class="mdl-button mdl-js-button">
+        {{#if authenticated}}
+          <img height="100%" 
+              src={{currentUser.snippet.thumbnails.default.url}}
+              alt={{currentUser.snippet.localized.title}} />
+        {{else}}
+          <span class="" {{action "gapi"}}>Login</span>
+        {{/if}}
+      </button>
+      <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
+        for="demo-menu-lower-right">
+        {{#if authenticated}}
+          {{#link-to "subscriptions" tagName="li" classNames="mdl-menu__item"}}
+            My Subscriptions
+          {{/link-to}}
+          <li class="mdl-menu__item" {{action "gapi"}}>Logout</li>
+        {{/if}}
+        {{!-- <li class="mdl-menu__item">Some Action</li>
+        <li class="mdl-menu__item">Another Action</li>
+        <li disabled class="mdl-menu__item">Disabled Action</li>
+        <li class="mdl-menu__item">Yet Another Action</li> --}}
+      </ul>
     </div>
+    
   </header>
-
+  
   <div class="mdl-layout__drawer">
     <span class="mdl-layout-title">Title</span>
     <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="">Login</a>
+      <a class="mdl-navigation__link" href="">Link</a>
       <a class="mdl-navigation__link" href="">Link</a>
       <a class="mdl-navigation__link" href="">Link</a>
       <a class="mdl-navigation__link" href="">Link</a>
@@ -34,6 +55,8 @@
   </div>
 
   <main class="mdl-layout__content">
-    {{outlet}}
+    <div class="page-content">
+      {{outlet}}
+    </div>  
   </main>
 </div>

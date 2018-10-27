@@ -20,12 +20,12 @@ module.exports = function(environment) {
       // Offline?
     },
     contentSecurityPolicy: {
-      'script-src':  "'self' 'unsafe-inline' 'unsafe-eval' apis.google.com storage.googleapis.com",
+      'script-src':  "'self' 'unsafe-inline' 'unsafe-eval' apis.google.com storage.googleapis.com code.getmdl.io",
       'font-src':    "'self' data: fonts.gstatic.com",
-      'style-src':   "'self' 'unsafe-inline' storage.googleapis.com fonts.googleapis.com",
+      'style-src':   "'self' 'unsafe-inline' storage.googleapis.com fonts.googleapis.com code.getmdl.io",
       'frame-src':   "'self' 'unsafe-inline' accounts.google.com content.googleapis.com",
       'connect-src': "'self' localhost:3000",
-      'img-src':     "'self' s3.amazonaws.com lorempixel.com csi.gstatic apis.google.com i.ytimg.com yt3.ggpht.com"
+      'img-src':     "'self' s3.amazonaws.com lorempixel.com csi.gstatic apis.google.com i.ytimg.com yt3.ggpht.com csi.gstatic.com"
     },
   };
 
@@ -36,10 +36,11 @@ module.exports = function(environment) {
     //ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
     //ENV.APP.LOG_VIEW_LOOKUPS = true;
 
-    ENV.APP.GOOGLE_API_KEY = '***REMOVED***-6Ek';
-    ENV.APP.YOUTUBE_CLIENT_ID = '***REMOVED***';
+    ENV.APP.GOOGLE_API_KEY = 'AIzaSyAM8s6IC3hZzjbS3jJ95j3uvMKjs7J-6Ek';
+    ENV.APP.OAUTH_CLIENT_ID = '69954375925-vqug2bnb3n64f2qa35dn6aq23g8m6ord.apps.googleusercontent.com';
+    ENV.APP.YOUTUBE_CLIENT_ID = '538048893232-6ravl5ktsabe8tlsne8jd9rj1kga7oq3.apps.googleusercontent.com';
 
-    ENV.APP.GOOGLE_AUTH_RUL = '***REMOVED***';
+    ENV.APP.GOOGLE_AUTH_RUL = 'https://accounts.google.com/o/oauth2/auth';
     ENV.APP.YOUTUBE_HOST = 'https://www.googleapis.com/youtube/v3';    
     ENV.APP.GOOGLE_SCOPES = 'https://www.googleapis.com/auth/youtube';
   }
@@ -60,7 +61,7 @@ module.exports = function(environment) {
     ENV.APP.GOOGLE_API_KEY = process.env.GOOGLE_API_KEY;
     ENV.APP.YOUTUBE_CLIENT_ID = process.env.YOUTUBE_CLIENT_ID;
 
-    ENV.APP.GOOGLE_AUTH_RUL = '***REMOVED***';
+    ENV.APP.GOOGLE_AUTH_RUL = 'https://accounts.google.com/o/oauth2/auth';
     ENV.APP.YOUTUBE_HOST = 'https://www.googleapis.com/youtube/v3';    
     ENV.APP.GOOGLE_SCOPES = 'https://www.googleapis.com/auth/plus.me';
   }

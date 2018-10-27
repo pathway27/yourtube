@@ -12,7 +12,7 @@ export default Ember.Route.extend({
 
   actions: {
     gapi () {
-      this.get('yourtube').oauth();
+      this.get('yourtube').handleAuthClick();
     }
   }
 });

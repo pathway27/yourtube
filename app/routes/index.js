@@ -1,15 +1,12 @@
 import Ember from "ember";
 
 export default Ember.Route.extend({
-  /*
-  model: function() {    
-    return Ember.RSVP.hash({
-      videos: this.store.findAll('video', {reload: true}),
-      playlists: this.store.findAll('playlist', {reload: true}),
-      channels: this.store.findAll('channel', {reload: true})
-    });
+  action: {
+    loading(transition, originRoute) {
+      let controller = this.controllerFor('index');
+      controller.set('currentlyLoading', true);
+    }
   }
-  */
 });
 
 

@@ -1,7 +1,13 @@
 # Yourtube-ember
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Yourtube-ember is stalled until Google updates their Youtube Data API to get an authenticated user's subscriptions easily.
+
+The main features are:
+  - watch a channel's uploads (playlist) in chronological or reverse order
+  - prioritise certain subscriptions over others
+  - create a better "Watch Now" playlist easily
+
+Until then a chrome extension will be made to highlight priority subscriptions and make a playlist for today.
 
 ## Prerequisites
 

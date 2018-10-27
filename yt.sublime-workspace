@@ -1,0 +1,883 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"load",
+				"loadYoutube"
+			],
+			[
+				"oaut",
+				"oauth2_client_id"
+			],
+			[
+				"read",
+				"readEntries"
+			],
+			[
+				"media",
+				"mediaFileSystem"
+			],
+			[
+				"clic",
+				"clickMedia"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/router.js",
+			"settings":
+			{
+				"buffer_size": 406,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/templates/subscriptions/index.hbs",
+			"settings":
+			{
+				"buffer_size": 1793,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/services/yourtube-api.js",
+			"settings":
+			{
+				"buffer_size": 1536,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/serializers/application.js",
+			"settings":
+			{
+				"buffer_size": 251,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "/''\n'/;'/yhyu/''\n'\n/;/''/;'\n'\n\n\naiuu8i99i90-  ` utube Data API to get an authenticated user's subscriptions easily.\n\nUntil then a chrome extension will be made to highlight priority subscriptions and make a playlist for today.\n\n## Prerequisites\n\nYou will need the following things properly installed on your computer.\n\n* [Git](http://git-scm.com/)\n* [Node.js](http://nodejs.org/) (with NPM)\n* [Bower](http://bower.io/)\n* [Ember CLI](http://www.ember-cli.com/)\n* [PhantomJS](http://phantomjs.org/)\n\n## Installation\n\n* `git clone <repository-url>` this repository\n* change into the new directory\n* `npm install`\n* `bower install`\n\n## Running / Development\n\n* `ember server`\n* Visit your app at [http://localhost:4200](http://localhost:4200).\n\n### Code Generators\n\nMake use of the many generators for code, try `ember help generate` for more details\n\n### Running Tests\n\n* `ember test`\n* `ember test --server`\n\n### Building\n\n* `ember build` (development)\n* `ember build --environment production` (production)\n\n### Deploying\n\nSpecify what it takes to deploy your app.\n\n## Further Reading / Useful Links\n\n* [ember.js](http://emberjs.com/)\n* [ember-cli](http://www.ember-cli.com/)\n* Development Browser Extensions\n  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)\n  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)\n\n",
+			"file": "README.md",
+			"file_size": 1457,
+			"file_write_time": 131005217750000000,
+			"settings":
+			{
+				"buffer_size": 1432,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/sreechela/ws/3ds/vn3dsx/source/main.cpp",
+			"settings":
+			{
+				"buffer_size": 1585,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/subscription.js",
+			"settings":
+			{
+				"buffer_size": 856,
+				"line_ending": "Unix",
+				"name": "subscription.js"
+			}
+		},
+		{
+			"file": "app/routes/subscriptions.js",
+			"settings":
+			{
+				"buffer_size": 177,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "instal",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"updat",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"jade",
+				"Set Syntax: Jade"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"ss ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"ss java",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ss scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"scss",
+				"Set Syntax: CSS"
+			],
+			[
+				"coffee",
+				"Set Syntax: CoffeeScript (Angular.js)"
+			],
+			[
+				"ss ang",
+				"Set Syntax: CoffeeScript (Angular.js)"
+			],
+			[
+				"angua",
+				"Set Syntax: CoffeeScript (Angular.js)"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"ss cof",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"ss co",
+				"Set Syntax: CoffeeScript (Literate)"
+			]
+		],
+		"width": 445.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"sys.version",
+			"import sys",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/sreechela/ws/yourtube-ember",
+		"/Users/sreechela/ws/yourtube-ember/app",
+		"/Users/sreechela/ws/yourtube-ember/app/controllers",
+		"/Users/sreechela/ws/yourtube-ember/app/initializers",
+		"/Users/sreechela/ws/yourtube-ember/app/models",
+		"/Users/sreechela/ws/yourtube-ember/app/routes",
+		"/Users/sreechela/ws/yourtube-ember/app/serializers",
+		"/Users/sreechela/ws/yourtube-ember/app/services",
+		"/Users/sreechela/ws/yourtube-ember/app/templates",
+		"/Users/sreechela/ws/yourtube-ember/app/templates/subscriptions",
+		"/Users/sreechela/ws/yourtube-ember/config"
+	],
+	"file_history":
+	[
+		"/Users/sreechela/ws/yourtube-ember/config/environment.js",
+		"/Users/sreechela/ws/yourtube-ember/testem.json",
+		"/Users/sreechela/ws/yourtube-ember/app/controllers/application.js",
+		"/Users/sreechela/ws/yourtube-ember/app/models/playlist.js",
+		"/Users/sreechela/ws/yourtube-ember/app/routes/application.js",
+		"/Users/sreechela/ws/yourtube-ember/app/routes/subscriptions.js",
+		"/Users/sreechela/ws/yourtube-ember/app/models/channel.js",
+		"/Users/sreechela/ws/yourtube-ember/app/routes/index.js",
+		"/Users/sreechela/ws/yourtube-ember/app/instance-initializers/instant-oauth.js",
+		"/Users/sreechela/ws/yourtube-ember/app/services/yourtube-api.js",
+		"/Users/sreechela/ws/yourtube-ember/app/app.js",
+		"/Users/sreechela/ws/yourtube-ember/app/router.js",
+		"/Users/sreechela/ws/yourtube-ember/app/templates/application.hbs",
+		"/Users/sreechela/ws/yourtube-ember/app/templates/components/current-user.hbs",
+		"/Users/sreechela/ws/yourtube-ember/app/templates/subscriptions/index.hbs",
+		"/Users/sreechela/ws/yourtube-ember/app/components/current-user.js",
+		"/Users/sreechela/ws/yourtube-ember/app/templates/subscriptions.hbs",
+		"/Users/sreechela/ws/yourtube-ember/app/templates/index.hbs",
+		"/Users/sreechela/ws/yourtube-ember/app/templates/components/oauth-button.hbs",
+		"/Users/sreechela/ws/yourtube-ember/app/torii-adapters/application.js",
+		"/Users/sreechela/ws/yourtube-ember/app/initializers/inject-yourtube.js",
+		"/Users/sreechela/ws/yourtube-ember/app/index.html",
+		"/Users/sreechela/ws/yourtube-ember/app/instance-initializer/instant-oauth.js",
+		"/Users/sreechela/ws/yourtube-ember/app/services/gapi.js",
+		"/Users/sreechela/ws/yourtube-ember/node_modules/ember-cli-babel/Brocfile.js",
+		"/Users/sreechela/ws/yourtube-ember/package.json",
+		"/Users/sreechela/ws/yourtube-ember/yt.sublime-project",
+		"/Users/sreechela/ws/yourtube-ember/node_modules/torii/lib/torii/configuration.js",
+		"/Users/sreechela/ws/yourtube-ember/api.sh",
+		"/Users/sreechela/ws/yourtube-ember/app/serializers/application.js",
+		"/Users/sreechela/ws/yourtube-ember/app/adapters/application.js",
+		"/Users/sreechela/ws/yourtube-ember/app/styles/app.css",
+		"/Users/sreechela/ws/yourtube-ember/app/templates/loading.hbs",
+		"/Users/sreechela/ws/yourtube-ember/index.js",
+		"/Users/sreechela/ws/yourtube-ember/node_modules/broccoli-asset-rev/tests/fixtures/basic/input/styles.css",
+		"/Users/sreechela/ws/yourtube-ember/app/models/video.js",
+		"/Users/sreechela/ws/yourtube-ember/node_modules/ember-cli/blueprints/route/index.js",
+		"/Users/sreechela/ws/yourtube-ember/app/models/thumbnail.js",
+		"/Users/sreechela/ws/yourtube-ember/app/models/channels.js",
+		"/Users/sreechela/ws/yourtube-ember/ember-cli-build.js",
+		"/Users/sreechela/ws/yourtube-ember/bower.json",
+		"/Users/sreechela/ws/yourtube-ember/dist/assets/vendor.js",
+		"/Users/sreechela/ws/meteor/lifetree/client/client.coffee",
+		"/Users/sreechela/ws/meteor/lifetree/client/views/families/famlist/famlist.coffee",
+		"/Users/sreechela/ws/meteor/lifetree/client/views/families/famtree/famtree.coffee",
+		"/Users/sreechela/ws/meteor/lifetree/client/views/families/famlist/famlist.jade",
+		"/Users/sreechela/ws/meteor/lifetree/client/views/families/families.jade",
+		"/Users/sreechela/ws/meteor/lifetree/.gitignore",
+		"/Users/sreechela/ws/meteor/lifetree/README.md",
+		"/Users/sreechela/ws/meteor/lifetree/client/views/layout/layout.html",
+		"/Users/sreechela/ws/meteor/lifetree/client/views/layout/theme.less",
+		"/Users/sreechela/ws/meteor/lifetree/client/router.coffee",
+		"/Users/sreechela/ws/meteor/lifetree/client/lib/custom.bootstrap.json",
+		"/Users/sreechela/ws/meteor/lifetree/client/lib/custom.bootstrap.mixins.import.less",
+		"/Users/sreechela/ws/meteor/lifetree/client/lib/custom.bootstrap.less",
+		"/Users/sreechela/ws/meteor/lifetree/client/lib/custom.bootstrap.import.less",
+		"/Users/sreechela/ws/meteor/lifetree/client/views/index/index.html",
+		"/Users/sreechela/ws/meteor/lifetree/.meteor/packages",
+		"/Users/sreechela/ws/meteor/lifetree/lib/custom.bootstrap.less",
+		"/Users/sreechela/ws/meteor/lifetree/lib/collections.coffee",
+		"/Users/sreechela/ws/meteor/lifetree/lib/custom.bootstrap.import.less",
+		"/Users/sreechela/ws/meteor/lifetree/lib/custom.bootstrap.json",
+		"/Users/sreechela/ws/meteor/lifetree/packages/.gitignore",
+		"/Users/sreechela/ws/meteor/lifetree/client/views/loading/loading.html",
+		"/Users/sreechela/ws/meteor/lifetree/client/views/index/index.coffee",
+		"/Users/sreechela/ws/meteor/lifetree/client/views/families/famtree/famtree.jade",
+		"/Users/sreechela/ws/meteor/lifetree/lib/custom.bootstrap.mixins.import.less",
+		"/Users/sreechela/ws/meteor/lifetree/.meteor/local/build/programs/web.browser/packages/meteor.js",
+		"/Users/sreechela/ws/meteor/lifetree/packages/fastclick/smart.json",
+		"/Users/sreechela/ws/meteor/lifetree/packages/fastclick/versions.json",
+		"/Users/sreechela/ws/meteor/lifetree/.meteor/versions",
+		"/Users/sreechela/ws/meteor/lifetree/.meteor/platforms",
+		"/Users/sreechela/ws/meteor/lifetree/.meteor/local/build/programs/server/program.json",
+		"/Users/sreechela/ws/meteor/lifetree/.meteor/local/build/programs/server/package.json",
+		"/Users/sreechela/ws/meteor/lifetree/.meteor/.finished-upgraders",
+		"/Users/sreechela/ws/meteor/lifetree/.meteor/local/build/programs/server/app/lib/collections.coffee.js",
+		"/Users/sreechela/ws/meteor/lifetree/.meteor/.id",
+		"/Users/sreechela/ws/meteor/lifetree/.meteor/release",
+		"/Users/sreechela/ws/meteor/lifetree/.meteor/local/build/programs/server/start.sh",
+		"/Users/sreechela/ws/meteor/lifetree/.meteor/local/build/programs/server/boot.js",
+		"/Users/sreechela/ws/meteor/lifetree/.meteor/local/build/main.js",
+		"/Users/sreechela/ws/meteor/lifetree/.meteor/.gitignore",
+		"/Users/sreechela/ws/meteor/lifetree/packages/accounts-ui-bootstrap-3/package.js",
+		"/Users/sreechela/ws/meteor/lifetree/packages/accounts-ui-bootstrap-3/README.md",
+		"/Users/sreechela/ws/meteor/lifetree/packages/accounts-ui-bootstrap-3/smart.json",
+		"/Users/sreechela/ws/meteor/lifetree/packages/jade/smart.json",
+		"/Users/sreechela/ws/meteor/lifetree/packages/jade/.gitignore",
+		"/Users/sreechela/ws/meteor/lifetree/packages/jade/LICENSE",
+		"/Users/sreechela/ws/meteor/lifetree/packages/jade/package.js",
+		"/Users/sreechela/ws/meteor/lifetree/packages/jade/README.md",
+		"/Users/sreechela/ws/meteor/lifetree/packages/fastclick/README.markdown",
+		"/Users/sreechela/ws/meteor/lifetree/packages/fastclick/package.js",
+		"/Users/sreechela/ws/meteor/lifetree/packages/bootstrap3-less/bootstrap.import.less",
+		"/Users/sreechela/ws/meteor/lifetree/packages/bootstrap3-less/package.js",
+		"/Users/sreechela/ws/meteor/lifetree/packages/bootstrap3-less/update.sh",
+		"/Users/sreechela/ws/meteor/lifetree/packages/bootstrap3-less/smart.json",
+		"/Users/sreechela/ws/meteor/lifetree/packages/iron-core/versions.json",
+		"/Users/sreechela/ws/fl/wheel-requests/app/templates/requests/new.hbs",
+		"/Users/sreechela/ws/fl/wheel-requests/app/templates/requests.hbs",
+		"/Users/sreechela/ws/fl/wheel-requests/app/controllers/requests.js",
+		"/Users/sreechela/ws/fl/wheel-requests/app/controllers/requests/new.js",
+		"/Users/sreechela/ws/fl/wheel-requests/app/router.js",
+		"/Users/sreechela/ws/fl/wheel-requests/app/templates/application.hbs",
+		"/Users/sreechela/ws/fl/wheel-requests/app/templates/about.hbs",
+		"/Users/sreechela/ws/fl/wheel-requests/app/routes/requests.js",
+		"/Users/sreechela/ws/fl/wheel-requests/app/adapters/application.js",
+		"/Users/sreechela/ws/fl/wheel-requests/config/environment.js",
+		"/Users/sreechela/ws/practice/yon/app/app/index.html",
+		"/Users/sreechela/ws/practice/yon/app/app/scripts/main.coffee",
+		"/Users/sreechela/ws/practice/yon/app/todo",
+		"/Users/sreechela/ws/practice/yon/app/app/manifest.json",
+		"/Users/sreechela/ws/practice/yon/app/app/styles/main.scss",
+		"/Users/sreechela/ws/practice/yon/app/app/styles/main.css",
+		"/Users/sreechela/ws/practice/yon/app/app/scripts/app.js",
+		"/Users/sreechela/ws/practice/yon/app/node_modules/grunt-contrib-imagemin/node_modules/optipng-bin/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/adm-zip/util/errors.js",
+		"/Users/sreechela/ws/practice/yon/app/node_modules/grunt-svgmin/node_modules/svgo/plugins/moveGroupAttrsToElems.js",
+		"/Users/sreechela/ws/practice/yon/app/app/bower_components/bootstrap/less/responsive-utilities.less",
+		"/Users/sreechela/ws/practice/yon/app/node_modules/grunt-bower-install/node_modules/bower-config/node_modules/mout/math/round.js",
+		"/Users/sreechela/ws/practice/yon/app/app/bower_components/font-awesome/less/rotated-flipped.less",
+		"/Users/sreechela/ws/practice/yon/app/node_modules/grunt/README.md",
+		"/Users/sreechela/ws/practice/yon/app/node_modules/grunt-bower-install/node_modules/bower-config/node_modules/mout/lang/isNull.js",
+		"/Users/sreechela/ws/practice/yon/app/node_modules/grunt-contrib-htmlmin/tasks/htmlmin.js",
+		"/Users/sreechela/ws/practice/yon/app/node_modules/grunt/node_modules/hooker/test/hooker_test.js",
+		"/Users/sreechela/ws/practice/yon/app/node_modules/grunt-mocha/HISTORY.md",
+		"/Users/sreechela/ws/practice/yon/app/app/scripts/main.js",
+		"/Users/sreechela/ws/practice/yon/app/app/bower_components/jquery/src/css.js",
+		"/Users/sreechela/ws/practice/yon/app/node_modules/grunt-svgmin/node_modules/svgo/node_modules/sax/test/self-closing-child-strict.js",
+		"/Users/sreechela/ws/practice/yon/app/app/bower_components/bootstrap/test-infra/s3_cache.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"fast",
+			"route",
+			"\"\n",
+			"root.get",
+			"$scope.state.selected =",
+			"deb",
+			"clientSecret",
+			"redir",
+			"scripts",
+			".coffee",
+			"xlt",
+			"serve",
+			"literal"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/router.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 406,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								406,
+								406
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/templates/subscriptions/index.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1793,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								323,
+								323
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Handlebars/grammars/Handlebars.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 223.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/services/yourtube-api.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1536,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								422,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/serializers/application.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 251,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								62,
+								45
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1432,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								44,
+								31
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/sreechela/ws/3ds/vn3dsx/source/main.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1585,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								356,
+								356
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "app/models/subscription.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 856,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								69,
+								69
+							]
+						],
+						"settings":
+						{
+							"auto_name": "subscription.js",
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/routes/subscriptions.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 177,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								53,
+								53
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.499524730314,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "yt.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"enviro",
+				"config/environment.js"
+			],
+			[
+				"envir",
+				"config/environment.js"
+			],
+			[
+				"templates/",
+				"app/templates/application.hbs"
+			],
+			[
+				"app.",
+				"app/app.js"
+			],
+			[
+				"instant",
+				"app/instance-initializers/instant-oauth.js"
+			],
+			[
+				"instant-oauth",
+				"app/instance-initializer/instant-oauth.js"
+			],
+			[
+				"initalizer/inject-",
+				"app/initializers/inject-yourtube.js"
+			],
+			[
+				"app",
+				"app/app.js"
+			],
+			[
+				"brocf",
+				"node_modules/ember-cli-babel/Brocfile.js"
+			],
+			[
+				"index.htm",
+				"app/index.html"
+			],
+			[
+				"environment",
+				"config/environment.js"
+			],
+			[
+				"style/",
+				"app/styles/app.css"
+			],
+			[
+				"sty",
+				"node_modules/broccoli-asset-rev/tests/fixtures/basic/input/styles.css"
+			],
+			[
+				"environ",
+				"config/environment.js"
+			],
+			[
+				"index.js",
+				"index.js"
+			],
+			[
+				"styles/",
+				"app/styles/app.css"
+			],
+			[
+				"index.html",
+				"app/index.html"
+			],
+			[
+				"loading",
+				"app/templates/loading.hbs"
+			],
+			[
+				"index.",
+				"app/routes/index.js"
+			],
+			[
+				"models/chane",
+				"app/models/channel.js"
+			],
+			[
+				"templat/ind",
+				"app/templates/index.hbs"
+			],
+			[
+				"templates/ap",
+				"app/templates/application.hbs"
+			],
+			[
+				"route/in",
+				"node_modules/ember-cli/blueprints/route/index.js"
+			],
+			[
+				"serial/",
+				"app/serializers/application.js"
+			],
+			[
+				"index",
+				"index.js"
+			],
+			[
+				"play",
+				"app/models/playlist.js"
+			],
+			[
+				"channel",
+				"app/models/channel.js"
+			],
+			[
+				"video",
+				"app/models/video.js"
+			],
+			[
+				"env",
+				"config/environment.js"
+			],
+			[
+				"rou",
+				"app/router.js"
+			],
+			[
+				"router",
+				"app/router.js"
+			],
+			[
+				"vendor.js",
+				"dist/assets/vendor.js"
+			],
+			[
+				"inde",
+				"app/index.html"
+			],
+			[
+				"tod",
+				"todo"
+			],
+			[
+				"scss",
+				"app/styles/main.scss"
+			],
+			[
+				"manif",
+				"reddit-im/app/manifest.json"
+			],
+			[
+				"mani",
+				"ng-reddit-oauth-template/manifest.json"
+			],
+			[
+				"main.co",
+				"app/scripts/controllers/main.coffee"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 211.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

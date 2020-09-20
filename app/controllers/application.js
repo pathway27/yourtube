@@ -1,14 +1,15 @@
+import Controller from '@ember/controller';
 import Ember from "ember";
+import { inject as service } from '@ember/service';
+import { alias } from '@ember/object/computed';
 
-Ember.Controller.reopen({
-  yourtube: Ember.inject.service('yourtube-api'),
+
+export default class ApplicationController extends Controller {
+  @service youtube
   
-  authenticated: Ember.computed.alias('yourtube.authenticated'),
-  currentUser: Ember.computed.alias('yourtube.currentUser'),
-})
-
-export default Ember.Controller.extend({
-
+  @alias('youtube.isAuthenticated') authenticated
+  @alias('youtube.currentUser') currentUser
+}
 
   // authChanged: Ember.observer('authenticated', function() {
   //   var auth = this.get('authenticated');
@@ -17,7 +18,6 @@ export default Ember.Controller.extend({
   //     this.transitionToRoute('subscriptions');
   //   }
   // })
-});
 
 /*
 

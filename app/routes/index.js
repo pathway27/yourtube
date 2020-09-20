@@ -1,13 +1,10 @@
-import Ember from "ember";
+import ApplicationRoute from './application';
 
-export default Ember.Route.extend({
-  action: {
-    loading(transition, originRoute) {
-      let controller = this.controllerFor('index');
-      controller.set('currentlyLoading', true);
-    }
+export default class IndexRoute extends ApplicationRoute {
+  model() {
+    return this.youtube.loadGAPI();
   }
-});
+};
 
 
 var data = {

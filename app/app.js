@@ -1,26 +1,12 @@
 import Application from '@ember/application';
-import Resolver from './resolver';
+import Resolver from 'ember-resolver';
 import loadInitializers from 'ember-load-initializers';
-import config from './config/environment';
+import config from 'yourtube/config/environment';
 
-
-var App = Application.extend({
-  modulePrefix: config.modulePrefix,
-  podModulePrefix: config.podModulePrefix,
-  Resolver
-});
-
-var appInst = App.create();
-appInst.deferReadiness();
-loadInitializers(appInst, config.modulePrefix);
-
-
-// let applicationInstance = App.create();
-// window.app = applicationInstance;
-
-window.OnLoadCallback = function() {
-  console.log('OnLoadCallback');
-  // Application.advanceReadiness();
+export default class App extends Application {
+  modulePrefix = config.modulePrefix;
+  podModulePrefix = config.podModulePrefix;
+  Resolver = Resolver;
 }
 
-export default App;
+loadInitializers(App, config.modulePrefix);

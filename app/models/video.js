@@ -1,12 +1,12 @@
-import DS from "ember-data";
+import Model, { attr, belongsTo } from '@ember-data/model';
 
-export default DS.Model.extend({
-  title: DS.attr('string'),
-  description: DS.attr('string'),
-  thumbnails: DS.attr(),
-  publishedAt: DS.attr('date'),
-  channel: DS.belongsTo('channel')
-});
+export default class VideoModel extends Model {
+  @attr('string') title
+  @attr('string') description
+  @attr thumbnails
+  @attr('date') publishedAt
+  @belongsTo('channel') channel
+};
 
 
 /*

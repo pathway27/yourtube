@@ -1,14 +1,13 @@
-import DS from "ember-data";
+import Model, { attr } from '@ember-data/model';
 
-export default DS.Model.extend({
-  channelId: DS.attr('string'),
-  snippet: DS.attr(),
-  title: Ember.computed('snippet', function() {
-    let snip = this.get('snippet');
+export default class SubscriptionModel extends Model {
+  @attr('string') channelId
+  @attr snippet
 
-    return snip.title;
-  })
-});
+  get title() {
+    return this.snipped.title;
+  }
+};
 
 /*
 Object

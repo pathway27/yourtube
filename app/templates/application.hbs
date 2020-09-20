@@ -14,28 +14,15 @@
         <a class="mdl-navigation__link" href="">Link</a> --}}
       </nav>
 
-      <!-- Right aligned menu below button -->
-
-
-      <button id="demo-menu-lower-right" class="mdl-button mdl-js-button">
-        {{#if authenticated}}
-          <img height="100%" src={{currentUser.snippet.thumbnails.default.url}} alt={{currentUser.snippet.localized.title}} />
-        {{else}}
-          <span class="" {{action "gapi"}}>Login</span>
-        {{/if}}
+      <button id="demo-menu-lower-right" class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">more_vert</i>
       </button>
-      <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
-        for="demo-menu-lower-right">
-        {{#if authenticated}}
-          {{#link-to "subscriptions" tagName="li" classNames="mdl-menu__item"}}
-            My Subscriptions
-          {{/link-to}}
-          <li class="mdl-menu__item" {{action "gapi"}}>Logout</li>
-        {{/if}}
-        {{!-- <li class="mdl-menu__item">Some Action</li>
-        <li class="mdl-menu__item">Another Action</li>
-        <li disabled class="mdl-menu__item">Disabled Action</li>
-        <li class="mdl-menu__item">Yet Another Action</li> --}}
+      
+      <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right">
+        {{#link-to "subscriptions" tagName="li" classNames="mdl-menu__item"}}
+          My Subscriptions
+        {{/link-to}}
+        <li class="mdl-menu__item" {{action "gapi"}}>toggle</li>
       </ul>
     </div>
 
@@ -54,6 +41,15 @@
   <main class="mdl-layout__content">
     <div class="page-content">
       {{outlet}}
+    </div>
+
+    <button id="demo-show-toast" class="mdl-button mdl-js-button mdl-button--raised" type="button"
+      {{action "toastAlert" 'test'}}>
+      Show Toast
+    </button>
+    <div id="demo-toast-example" class="mdl-js-snackbar mdl-snackbar">
+      <div class="mdl-snackbar__text"></div>
+      <button class="mdl-snackbar__action" type="button"></button>
     </div>
   </main>
 </div>

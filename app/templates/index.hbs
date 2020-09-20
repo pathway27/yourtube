@@ -1,7 +1,27 @@
 <div class="mdl-grid">
-  {{#unless yourtube.authenticated}}
-    Please login
-  {{else}}
+  <div class="mdl-cell mdl-cell--2-col">
+    youtube.isAuthenticated: {{youtube.isAuthenticated}}
+  </div>
+
+  <div class="mdl-cell mdl-cell--2-col">
+    this.authenticated: {{this.authenticated}}
+  </div>
+
+  <div class="mdl-cell mdl-cell--2-col">
+    authenticated: {{authenticated}}
+  </div>
+</div>
+
+<div class="mdl-grid">
+  <div class="mdl-cell mdl-cell--2-col">
+    youtube.currentUser: {{log youtube.currentUser}}
+  </div>
+</div>
+
+<div class="mdl-grid">
+  {{#if youtube.isAuthenticated}}
     logged in
-  {{/unless}}
+  {{else}}
+    Please login
+  {{/if}}
 </div>

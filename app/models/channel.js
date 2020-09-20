@@ -1,12 +1,12 @@
-import DS from "ember-data";
+import Model, { attr, belongsTo } from '@ember-data/model';
 
-export default DS.Model.extend({
-  title: DS.attr('string'),
-  description: DS.attr('string'),
-  publishedAt: DS.attr('date'),
-  uploads: DS.belongsTo('playlist'),
-  thumbnails: DS.attr()
-});
+export default class ChannelModel extends Model {
+  @attr('string') title;
+  @attr('string') description;
+  @attr('date') publishedAt;
+  @belongsTo('playlist') uploads;
+  @attr thumbnails;
+}
 
 /*
 

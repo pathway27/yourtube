@@ -21,14 +21,10 @@
   <body>
     {{content-for "body"}}
 
+    <script src="https://apis.google.com/js/api.js"></script>
     <script src="{{rootURL}}assets/vendor.js"></script>
     <script src="{{rootURL}}assets/yourtube.js"></script>
     <!-- <script async defer src="https://apis.google.com/js/client.js?onload=OnLoadCallback"></script> -->
-    <script src="https://apis.google.com/js/api.js?onload=OnLoadCallback"
-      onload="this.onload=function(){};console.log('asdf')"
-      onreadystatechange="if (this.readyState === 'complete') this.onload()">
-    </script>
-
 
     {{content-for "body-footer"}}
   </body>

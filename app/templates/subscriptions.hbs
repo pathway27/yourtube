@@ -5,17 +5,20 @@
 
     <thead>
       <tr>
-        <th class="mdl-data-table__cell--non-numeric">Channel {{model.length}}</th>
+        <th class="mdl-data-table__cell--non-numeric">Channel {{filteredSubscriptions.length}}</th>
+
+        <label for="input-name">Name:</label>
+        <Input id="input-name" name="name" @value={{this.name}} />
       </tr>
     </thead>
 
     <tbody>
 
-      {{#each model as |channel|}}
+      {{#each filteredSubscriptions as |channel|}}
       <tr>
         <td class="mdl-data-table__cell--non-numeric">
 
-          {{channel.title}}
+          {{channel.item.snippet.title}}
           {{!-- {{lazy-image url=channel.thumbnails.high class='channel-avatar'}} --}}
 
         </td>

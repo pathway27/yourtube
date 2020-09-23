@@ -4,16 +4,16 @@
 import Service from '@ember/service';
 import config from '../config/environment';
 import { tracked } from '@glimmer/tracking';
+import { observer } from '@ember/object';
 
 export default class YoutubeService extends Service {
-  items = [];
+  @tracked isAuthenticated = gapi.auth2.getAuthInstance().isSignedIn.get();
+  @tracked user = gapi.auth2.getAuthInstance().currentUser.get();
+
   token = null;
-  @tracked currentUser = gapi.auth2.getAuthInstance().currentUser.get();
   currentApiRequest = null;
   loading = false;
   gapi = null;
-
-  testing = 'testing';
 
   init() {
     super.init(...arguments);
@@ -24,26 +24,29 @@ export default class YoutubeService extends Service {
   }
 
   loadGAPI() {
+    var self = this;
     return new Ember.RSVP.Promise(resolve => {
       console.debug('resolve')
       gapi.load('client:auth2', {
         callback: () => {
           console.debug('gapi.load callback')
           gapi.client.init({
-            apiKey: config.APP.GOOGLE_API_KEY,
+            // apiKey: config.APP.GOOGLE_API_KEY,
             discoveryDocs: config.APP.DISCOVERY_DOCS,
             clientId: config.APP.OAUTH_CLIENT_ID,
             scope: config.APP.GOOGLE_SCOPES
           }).then(() => {
-            console.log('gapi.client.init then')
-            resolve({});
-            // self.gapi = gapi;
-            // Listen for sign-in state changes.
-            // TODO: use observable instead
-            // gapi.auth2.getAuthInstance().isSignedIn.listen(self.updateSigninStatus, self);
+            console.debug('gapi.client.init then')
 
-            // Handle the initial sign-in state.
-            // self.updateSigninStatus(gapi.auth2.getAuthInstance().isSignedIn.get());
+            gapi.auth2.getAuthInstance().isSignedIn.listen((isSignedIn) => {
+              this.isAuthenticated = isSignedIn
+            });
+
+            gapi.auth2.getAuthInstance().currentUser.listen((user) => {
+              this.user = user
+            });
+
+            resolve({});
           }, (err) => {
             console.error('gapi.client.init error')
             console.error(err)
@@ -55,14 +58,6 @@ export default class YoutubeService extends Service {
         }
       })
     })
-  }
-
-  get isAuthenticated() {
-    return gapi.auth2.getAuthInstance().isSignedIn.get();
-  }
-
-  get user() {
-    return gapi.auth2.getAuthInstance().currentUser.get();
   }
 
   handleAuthClick() {

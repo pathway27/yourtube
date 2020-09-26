@@ -9,11 +9,4 @@ export default class ApplicationRoute extends Route {
   gapi (e) {
     this.youtube.handleAuthClick();
   }
-
-  @action
-  toastAlert (message) {
-    var snackbarContainer = document.querySelector('#demo-toast-example');
-    var data = { message: message };
-    snackbarContainer.MaterialSnackbar.showSnackbar(data);
-  }
 };

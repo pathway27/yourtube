@@ -1,27 +1,29 @@
-<div class="mdl-grid">
-  <div class="mdl-cell mdl-cell--2-col">
+{{#mdc-layout-grid}}
+  {{#mdc-layout-grid-cell desktopColumns=4 tabletColumns=4 phoneColumns=4}}
     youtube.isAuthenticated: {{youtube.isAuthenticated}}
-  </div>
+  {{/mdc-layout-grid-cell}}
 
-  <div class="mdl-cell mdl-cell--2-col">
+  {{#mdc-layout-grid-cell desktopColumns=4 tabletColumns=4 phoneColumns=4}}
     this.authenticated: {{this.authenticated}}
-  </div>
+  {{/mdc-layout-grid-cell}}
 
-  <div class="mdl-cell mdl-cell--2-col">
+  {{#mdc-layout-grid-cell desktopColumns=4 tabletColumns=4 phoneColumns=4}}
     authenticated: {{authenticated}}
-  </div>
-</div>
+  {{/mdc-layout-grid-cell}}
+{{/mdc-layout-grid}}
 
-<div class="mdl-grid">
-  <div class="mdl-cell mdl-cell--2-col">
+{{#mdc-layout-grid}}
+  {{#mdc-layout-grid-cell columns=12}}
     youtube.user: {{json youtube.user}}
-  </div>
-</div>
+  {{/mdc-layout-grid-cell}}
+{{/mdc-layout-grid}}
 
-<div class="mdl-grid">
-  {{#if youtube.isAuthenticated}}
-    logged in
-  {{else}}
-    Please login
-  {{/if}}
-</div>
+{{#mdc-layout-grid}}
+  {{#mdc-layout-grid-cell columns=12}}
+    {{#if youtube.isAuthenticated}}
+      logged in
+    {{else}}
+      Please login
+    {{/if}}
+  {{/mdc-layout-grid-cell}}
+{{/mdc-layout-grid}}

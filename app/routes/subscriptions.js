@@ -4,7 +4,11 @@ import ApplicationRoute from './application'
 
 import data from './youtube_v3_api_response'
 
+import { inject as service } from '@ember/service';
+
 export default class SubscriptionsRoute extends ApplicationRoute {
+  @service snackbar
+
   queryParams = {
     name: {
       replace: true
@@ -29,7 +33,20 @@ export default class SubscriptionsRoute extends ApplicationRoute {
   // Scope out to Authenticated Mixin
   afterModel() {
     if (!this.youtube.isAuthenticated) {
-      this.toastAlert('Please Login')
+      // this.snackbar._snackbar({
+      //   message: 'Please Login',
+      
+      //   // optional properties
+      
+      //   dismissible: true,
+      //   action: {
+      //     label: 'Undo',
+      //     handler () {
+      //       alert ('We press the undo action!');
+      //     }
+      //   } 
+      // })
+
       this.transitionTo('index');
     }
   }

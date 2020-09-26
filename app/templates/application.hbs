@@ -1,51 +1,46 @@
-<!-- Always shows a header, even in smaller screens. -->
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-  <header class="mdl-layout__header">
-    <div class="mdl-layout__header-row">
-      <!-- Title -->
-      <span class="mdl-layout-title">{{#link-to 'index'}}YourTube{{/link-to}}</span>
-      <!-- Add spacer, to align navigation to the right -->
-      <div class="mdl-layout-spacer"></div>
-      <!-- Navigation. We hide it in small screens. -->
-      <nav class="mdl-navigation mdl-layout--large-screen-only">
-        {{!-- <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a> --}}
-      </nav>
+{{#mdc-top-app-bar style="dense"}}
+  {{#mdc-top-app-bar-row}}
+    {{#mdc-top-app-bar-section}}
+      {{mdc-top-app-bar-navigate-up-to "index"}}
+      {{#mdc-top-app-bar-title}}Yourtube{{/mdc-top-app-bar-title}}
+    {{/mdc-top-app-bar-section}}
+  
+    {{#mdc-top-app-bar-section position="alignEnd"}}
+      <div>
+        {{#if youtube.authenticated}}
+          {{mdc-top-app-bar-action-item icon="account_circle" click=(action (mut openMenu) true)}}
+        {{else}}
+          {{mdc-top-app-bar-action-item icon="more_vert" click=(action (mut openMenu) true)}}
+        {{/if}}
 
-      <button id="demo-menu-lower-right" class="mdl-button mdl-js-button mdl-button--icon">
-        <i class="material-icons">more_vert</i>
-      </button>
-      
-      <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right">
-        {{#link-to "subscriptions" tagName="li" classNames="mdl-menu__item"}}
-          My Subscriptions
-        {{/link-to}}
-        <li class="mdl-menu__item" {{action "gapi"}}>toggle</li>
-      </ul>
-    </div>
 
-  </header>
+        {{#mdc-menu position="fixed" open=openMenu anchorCorner="bottomRight"}}
+          {{#mdc-menu-list}}
+            {{mdc-menu-item-link-to "Subscriptions" "subscriptions"}}
 
-  <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title">Title</span>
-    <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
-    </nav>
-  </div>
+            {{mdc-list-divider}}
 
-  <main class="mdl-layout__content">
-    <div class="page-content">
-      {{outlet}}
-    </div>
+            {{#mdc-menu-item action "gapi"}}
+              {{#mdc-menu-item-text}}
+                {{#if youtube.authenticated}}
+                  Sign out
+                {{else}}
+                  Sign In
+                {{/if}}
+              {{/mdc-menu-item-text}}
+            {{/mdc-menu-item}}
+          {{/mdc-menu-list}}
+        {{/mdc-menu}}
+      </div>
 
-    <div id="demo-toast-example" class="mdl-js-snackbar mdl-snackbar">
-      <div class="mdl-snackbar__text"></div>
-      <button class="mdl-snackbar__action" type="button"></button>
-    </div>
-  </main>
-</div>
+    {{/mdc-top-app-bar-section}}
+  {{/mdc-top-app-bar-row}}
+{{/mdc-top-app-bar}}
+
+{{#mdc-content}}
+  {{outlet}}
+
+  {{mdc-snackbar message=snackbar.message
+               action=snackbar.action
+               dismissible=snackbar.dismissible}}
+{{/mdc-content}}

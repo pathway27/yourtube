@@ -1,59 +1,54 @@
-<div class="mdl-grid">
+{{#mdc-layout-grid}}
+  {{#mdc-layout-grid-cell columns=4}}
+    <h3>Data table with row selection (using models)</h3>
 
-  <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable
-  mdl-shadow--2dp mdl-color--white mdl-cell mdl-cell--4-col">
+    {{#mdc-data-table label="Network"
+                      data=filteredSubscriptions
+                      selected=selected
+                      rowSelectionChange=(action "rowSelectionChange") as |dataTable|}}
+      {{#mdc-data-table-header-row}}
+        {{mdc-data-table-header-cell checkbox=true}}
+        {{#mdc-data-table-header-cell}}
+          {{#mdc-layout-grid}}
+            {{#mdc-layout-grid-cell columns=3}}
+              Channel {{filteredSubscriptions.length}}
+            {{/mdc-layout-grid-cell}}
 
-    <thead>
-      <tr>
-        <th class="mdl-data-table__cell--non-numeric">Channel {{filteredSubscriptions.length}}</th>
+            {{#mdc-layout-grid-cell columns=7}}
+              <div class="text-field-row">
+                <div class="text-field-container">
+                  {{mdc-textfield label="Search" style="standard" name="name" value=this.name }}
+                </div>
+              </div>
+            {{/mdc-layout-grid-cell}}
+          {{/mdc-layout-grid}}
+        {{/mdc-data-table-header-cell}}
+      {{/mdc-data-table-header-row}}
 
-        <label for="input-name">Name:</label>
-        <Input id="input-name" name="name" @value={{this.name}} />
-      </tr>
-    </thead>
+      {{#mdc-data-table-content}}
+        {{#each dataTable.data as |channel|}}
+          {{#mdc-data-table-row data=channel}}
+            {{mdc-data-table-cell checkbox=true}}
+            {{#mdc-data-table-cell}}{{channel.snippet.title}}{{/mdc-data-table-cell}}
+          {{/mdc-data-table-row}}
+        {{/each}}
+      {{/mdc-data-table-content}}
+    {{/mdc-data-table}}
+  {{/mdc-layout-grid-cell}}
 
-    <tbody>
+  {{#mdc-layout-grid-cell columns=8}}
+    {{#mdc-card outlined=true}}
 
-      {{#each filteredSubscriptions as |channel|}}
-      <tr>
-        <td class="mdl-data-table__cell--non-numeric">
+      <div class="content">  
+        <h4>Selected Rows:</h4>
 
-          {{channel.item.snippet.title}}
-          {{!-- {{lazy-image url=channel.thumbnails.high class='channel-avatar'}} --}}
-
-        </td>
-      </tr>
-      {{/each}}
-
-      <tr>
-        <td class="mdl-data-table__cell--non-numeric">Plywood (Birch)</td>
-      </tr>
-      <tr>
-        <td class="mdl-data-table__cell--non-numeric">Laminate (Gold on Blue)</td>
-      </tr>
-    </tbody>
-
-  </table>
-
-
-  <div class="demo-card-wide mdl-card mdl-shadow--2dp mdl-color--white mdl-cell mdl-cell--8-col">
-    <div class="mdl-card__title">
-      <h2 class="mdl-card__title-text">Welcome</h2>
-    </div>
-    <div class="mdl-card__supporting-text">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Mauris sagittis pellentesque lacus eleifend lacinia...
-    </div>
-    <div class="mdl-card__actions mdl-card--border">
-      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-        Get Started
-      </a>
-    </div>
-    <div class="mdl-card__menu">
-      <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-        <i class="material-icons">share</i>
-      </button>
-    </div>
-  </div>
-
-</div>
+        <ul>
+          {{#each selected as |selection|}}
+            <li>{{selection.id}}</li>
+          {{/each}}
+        </ul>
+      </div>
+      
+    {{/mdc-card}}
+  {{/mdc-layout-grid-cell}}
+{{/mdc-layout-grid}}

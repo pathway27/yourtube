@@ -1,8 +1,9 @@
 module.exports = {
   root: true,
   parserOptions: {
-    ecmaVersion: 2017,
-    sourceType: 'module'
+    ecmaVersion: 6,
+    sourceType: 'module',
+    experimentalDecorators: true
   },
   plugins: [
     'ember'
@@ -12,7 +13,8 @@ module.exports = {
     'plugin:ember/recommended'
   ],
   env: {
-    browser: true
+    browser: true,
+    es6: true
   },
   rules: {
     "no-console": 0
@@ -30,7 +32,7 @@ module.exports = {
       ],
       parserOptions: {
         sourceType: 'script',
-        ecmaVersion: 2015
+        ecmaVersion: 6
       },
       env: {
         browser: false,

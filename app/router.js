@@ -7,5 +7,7 @@ export default class Router extends EmberRouter {
 }
 
 Router.map(function() {
-  this.route('subscriptions');
+  this.route('subscriptions', function() {
+    this.route('channel', { path: '/:channel' });
+  });
 });

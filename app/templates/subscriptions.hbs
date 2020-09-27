@@ -1,20 +1,15 @@
 {{#mdc-layout-grid}}
   {{#mdc-layout-grid-cell columns=4}}
-    <h3>Data table with row selection (using models)</h3>
 
-    {{#mdc-data-table label="Network"
-                      data=filteredSubscriptions
-                      selected=selected
-                      rowSelectionChange=(action "rowSelectionChange") as |dataTable|}}
+    {{#mdc-data-table label="Channels" data=filteredSubscriptions as |dataTable|}}
       {{#mdc-data-table-header-row}}
-        {{mdc-data-table-header-cell checkbox=true}}
         {{#mdc-data-table-header-cell}}
           {{#mdc-layout-grid}}
-            {{#mdc-layout-grid-cell columns=3}}
-              Channel {{filteredSubscriptions.length}}
+            {{#mdc-layout-grid-cell columns=4}}
+              Channels ({{filteredSubscriptions.length}})
             {{/mdc-layout-grid-cell}}
 
-            {{#mdc-layout-grid-cell columns=7}}
+            {{#mdc-layout-grid-cell columns=8}}
               <div class="text-field-row">
                 <div class="text-field-container">
                   {{mdc-textfield label="Search" style="standard" name="name" value=this.name }}
@@ -26,10 +21,13 @@
       {{/mdc-data-table-header-row}}
 
       {{#mdc-data-table-content}}
-        {{#each dataTable.data as |channel|}}
-          {{#mdc-data-table-row data=channel}}
-            {{mdc-data-table-cell checkbox=true}}
-            {{#mdc-data-table-cell}}{{channel.snippet.title}}{{/mdc-data-table-cell}}
+        {{#each dataTable.data as |subscription|}}
+          {{#mdc-data-table-row data=subscription}}
+            {{#mdc-data-table-cell}}
+              <LinkTo @route='subscriptions.channel' @model={{subscription}}>
+                {{subscription.title}}
+              </LinkTo>
+            {{/mdc-data-table-cell}}
           {{/mdc-data-table-row}}
         {{/each}}
       {{/mdc-data-table-content}}
@@ -37,18 +35,6 @@
   {{/mdc-layout-grid-cell}}
 
   {{#mdc-layout-grid-cell columns=8}}
-    {{#mdc-card outlined=true}}
-
-      <div class="content">  
-        <h4>Selected Rows:</h4>
-
-        <ul>
-          {{#each selected as |selection|}}
-            <li>{{selection.id}}</li>
-          {{/each}}
-        </ul>
-      </div>
-      
-    {{/mdc-card}}
+    {{outlet}}
   {{/mdc-layout-grid-cell}}
 {{/mdc-layout-grid}}

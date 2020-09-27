@@ -16,16 +16,16 @@
 
         {{#mdc-menu position="fixed" open=openMenu anchorCorner="bottomRight"}}
           {{#mdc-menu-list}}
-            {{mdc-menu-item-link-to "Subscriptions" "subscriptions"}}
+            {{mdc-menu-item-link-to "My Subscriptions" "subscriptions"}}
 
             {{mdc-list-divider}}
 
             {{#mdc-menu-item action "gapi"}}
               {{#mdc-menu-item-text}}
                 {{#if youtube.authenticated}}
-                  Sign out
-                {{else}}
                   Sign In
+                {{else}}
+                  Sign out
                 {{/if}}
               {{/mdc-menu-item-text}}
             {{/mdc-menu-item}}

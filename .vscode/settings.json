@@ -1,0 +1,6 @@
+{
+  "eslint.codeAction.disableRuleComment": {
+    "experimentalDecorators": "true"
+  },
+  "javascript.implicitProjectConfig.experimentalDecorators": true
+}

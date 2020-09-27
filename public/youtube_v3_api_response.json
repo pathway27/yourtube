@@ -1,4 +1,4 @@
-export default {
+{
   "kind": "youtube#SubscriptionListResponse",
   "etag": "EC8XBJ5c1-eNFX9WyByO2FKJ4_c",
   "nextPageToken": "CDIQAA",

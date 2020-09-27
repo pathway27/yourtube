@@ -1,17 +1,15 @@
 /*jshint loopfunc:true */
 
-import ApplicationRoute from './application'
+import ApplicationRoute from '../application'
 
 import { inject as service } from '@ember/service';
 
-export default class SubscriptionsRoute extends ApplicationRoute {
+export default class ChannelRoute extends ApplicationRoute {
   @service snackbar
-  @service store
-
-  meta = null;
 
   queryParams = {
     name: {
+      as: 'channelName',
       replace: true
     }
   }
@@ -20,19 +18,10 @@ export default class SubscriptionsRoute extends ApplicationRoute {
     await this.youtube.loadGAPI()
   }
 
-  model() {
-    return this.store.findAll('subscription')
+  model({channel}) {
+    return {}
+    // return this.store.findRecord('channel', channel)
   }
-
-  // model() {
-  //   return new Ember.RSVP.Promise(resolve => {
-  //       let req = this.youtube.subscriptions()
-  //       req.then((res) => {
-  //         console.debug(res)
-  //         resolve(res)
-  //       })
-  //   })
-  // }
 
   // Scope out to Authenticated Mixin
   afterModel() {

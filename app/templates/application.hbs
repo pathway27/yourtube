@@ -20,12 +20,12 @@
 
             {{mdc-list-divider}}
 
-            {{#mdc-menu-item action "gapi"}}
+            {{#mdc-menu-item on "click" this.gapi}}
               {{#mdc-menu-item-text}}
-                {{#if youtube.authenticated}}
-                  Sign In
+                {{#if authenticated}}
+                  Sign Out
                 {{else}}
-                  Sign out
+                  Sign In
                 {{/if}}
               {{/mdc-menu-item-text}}
             {{/mdc-menu-item}}

@@ -9,7 +9,7 @@ Take control over **your** you**tube** subscriptions.
 You will need the following things properly installed on your computer.
 
 * [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with npm)
+* [Node.js](https://nodejs.org/) (with npm do `npm i -g npm yarn ember-cli`)
 * [Ember CLI](https://ember-cli.com/)
 * [Google Chrome](https://google.com/chrome/)
 
@@ -17,7 +17,28 @@ You will need the following things properly installed on your computer.
 
 * `git clone <repository-url>` this repository
 * `cd yourtube`
-* `npm install`
+* `yarn`
+
+Do this while you wait:
+
+Go to [Google Developer Console](https://console.developers.google.com) and:
+
+- Create a project
+- `cp .env.sample > .env`
+- Create an API Key (Restrict it to Youtube Data API) as `GOOGLE_API_KEY`
+- Create an OAuth 2.0 Client ID
+  - App. Type: Web App.
+  - Name: Dev (Make another one for prod.)
+  - URIs: https://localhost:4200
+-  as `YOUTUBE_CLIENT_ID`
+
+Export them into current session:
+
+```
+set -a
+source .env
+set +a
+```
 
 ## Running / Development
 

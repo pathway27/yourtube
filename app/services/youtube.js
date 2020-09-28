@@ -7,8 +7,8 @@ import { tracked } from '@glimmer/tracking';
 import { observer } from '@ember/object';
 
 export default class YoutubeService extends Service {
-  @tracked isAuthenticated = gapi.auth2.getAuthInstance().isSignedIn.get();
-  @tracked user = gapi.auth2.getAuthInstance().currentUser.get();
+  @tracked isAuthenticated = false;
+  @tracked user = null;
 
   token = null;
   currentApiRequest = null;
@@ -37,6 +37,9 @@ export default class YoutubeService extends Service {
             scope: config.APP.GOOGLE_SCOPES
           }).then(() => {
             console.debug('gapi.client.init then')
+
+            this.isAuthenticated = gapi.auth2.getAuthInstance().isSignedIn.get();
+            this.user = gapi.auth2.getAuthInstance().currentUser.get();
 
             gapi.auth2.getAuthInstance().isSignedIn.listen((isSignedIn) => {
               this.isAuthenticated = isSignedIn
@@ -155,7 +158,7 @@ export default class YoutubeService extends Service {
           dd = ['https://www.googleapis.com/discovery/v1/apis/youtube/v3/rest'];
     var authObject = {
       'apiKey': config.APP.GOOGLE_API_KEY,
-      'clientId': config.APP.YOUTUBE_CLIENT_ID,
+      'clientId': config.APP.OAUTH_CLIENT_ID,
       'scope': 'https://www.googleapis.com/auth/youtube',
       'discoveryDocs': ['https://www.googleapis.com/discovery/v1/apis/youtube/v3/rest']
     };

@@ -17,18 +17,22 @@
         {{#mdc-menu position="fixed" open=openMenu anchorCorner="bottomRight"}}
           {{#mdc-menu-list}}
             {{mdc-menu-item-link-to "My Subscriptions" "subscriptions"}}
+            {{mdc-menu-item-link-to "Privacy" "privacy"}}
+            {{mdc-menu-item-link-to "About" "about"}}
 
             {{mdc-list-divider}}
 
-            {{#mdc-menu-item on "click" this.gapi}}
-              {{#mdc-menu-item-text}}
-                {{#if authenticated}}
-                  Sign Out
-                {{else}}
-                  Sign In
-                {{/if}}
-              {{/mdc-menu-item-text}}
-            {{/mdc-menu-item}}
+            <div {{on "click" this.gapi}}>
+              {{#mdc-menu-item}}
+                {{#mdc-menu-item-text}}
+                  {{#if authenticated}}
+                    Sign Out
+                  {{else}}
+                    Sign In
+                  {{/if}}
+                {{/mdc-menu-item-text}}
+              {{/mdc-menu-item}}
+            </div>
           {{/mdc-menu-list}}
         {{/mdc-menu}}
       </div>

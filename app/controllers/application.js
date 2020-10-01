@@ -12,7 +12,7 @@ export default class ApplicationController extends Controller {
 
   @action
   gapi (e) {
-    console.debug('gapi')
+    console.debug('gapi controller')
     this.youtube.handleAuthClick();
   }
 }

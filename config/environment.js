@@ -25,7 +25,6 @@ module.exports = function(environment) {
       GOOGLE_API_KEY:    process.env.GOOGLE_API_KEY,
       OAUTH_CLIENT_ID:   process.env.OAUTH_CLIENT_ID,
       YOUTUBE_HOST:      'https://www.googleapis.com/youtube/v3',
-      GOOGLE_SCOPES:     'https://www.googleapis.com/auth/plus.me',
       useLocalJSON:      true
     }
     // contentSecurityPolicy: {

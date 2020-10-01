@@ -10,4 +10,7 @@ Router.map(function() {
   this.route('subscriptions', function() {
     this.route('channel', { path: '/:channel' });
   });
+
+  this.route('about');
+  this.route('privacy');
 });

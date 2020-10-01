@@ -30,7 +30,7 @@ Go to [Google Developer Console](https://console.developers.google.com) and:
   - App. Type: Web App.
   - Name: Dev (Make another one for prod.)
   - URIs: https://localhost:4200
--  as `YOUTUBE_CLIENT_ID`
+-  as `OAUTH_CLIENT_ID`
 
 Export them into current session:
 
@@ -38,6 +38,7 @@ Export them into current session:
 set -a
 source .env
 set +a
+env | grep -i 'google' # make sure those variables are shown
 ```
 
 ## Running / Development

@@ -26,14 +26,13 @@ export default class YoutubeService extends Service {
   loadGAPI() {
     var self = this;
     return new Ember.RSVP.Promise(resolve => {
-      console.debug('resolve')
       gapi.load('client:auth2', {
         callback: () => {
           console.debug('gapi.load callback')
           gapi.client.init({
-            // apiKey: config.APP.GOOGLE_API_KEY,
-            discoveryDocs: config.APP.DISCOVERY_DOCS,
+            apiKey: config.APP.GOOGLE_API_KEY,
             clientId: config.APP.OAUTH_CLIENT_ID,
+            discoveryDocs: config.APP.DISCOVERY_DOCS,
             scope: config.APP.GOOGLE_SCOPES
           }).then(() => {
             console.debug('gapi.client.init then')
@@ -153,7 +152,7 @@ export default class YoutubeService extends Service {
 
   oauth() {
     var self = this;
-    var clientId = config.APP.YOUTUBE_CLIENT_ID,
+    var clientId = config.APP.OAUTH_CLIENT_ID,
           scopes = config.APP.GOOGLE_SCOPES,
           dd = ['https://www.googleapis.com/discovery/v1/apis/youtube/v3/rest'];
     var authObject = {

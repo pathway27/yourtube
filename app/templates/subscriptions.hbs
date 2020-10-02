@@ -24,7 +24,7 @@
         {{#each dataTable.data as |subscription|}}
           {{#mdc-data-table-row data=subscription}}
             {{#mdc-data-table-cell}}
-              <LinkTo @route='subscriptions.channel' @model={{subscription}}>
+              <LinkTo @route='subscriptions.channel' @model={{subscription.channel}}>
                 {{subscription.title}}
               </LinkTo>
             {{/mdc-data-table-cell}}

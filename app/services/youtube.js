@@ -4,16 +4,15 @@
 import Service from '@ember/service';
 import config from '../config/environment';
 import { tracked } from '@glimmer/tracking';
-import { observer } from '@ember/object';
 
 export default class YoutubeService extends Service {
+  @tracked gapiLoaded = false;
   @tracked isAuthenticated = false;
   @tracked user = null;
 
   token = null;
   currentApiRequest = null;
   loading = false;
-  gapi = null;
 
   init() {
     super.init(...arguments);
@@ -26,9 +25,15 @@ export default class YoutubeService extends Service {
   loadGAPI() {
     var self = this;
     return new Ember.RSVP.Promise(resolve => {
+      if (this.gapiLoaded) {
+        resolve({})
+        return
+      }
+
       gapi.load('client:auth2', {
         callback: () => {
           console.debug('gapi.load callback')
+          
           gapi.client.init({
             apiKey: config.APP.GOOGLE_API_KEY,
             clientId: config.APP.OAUTH_CLIENT_ID,
@@ -36,6 +41,7 @@ export default class YoutubeService extends Service {
             scope: config.APP.GOOGLE_SCOPES
           }).then(() => {
             console.debug('gapi.client.init then')
+            this.gapiLoaded = true;
 
             this.isAuthenticated = gapi.auth2.getAuthInstance().isSignedIn.get();
             this.user = gapi.auth2.getAuthInstance().currentUser.get();
@@ -148,6 +154,16 @@ export default class YoutubeService extends Service {
     // }, function(reason) {
     //   console.log('Error: ' + reason.result.error.message);
     // });
+  }
+
+  channel(channelId) {
+    var params = {
+      'id': channelId,
+      'part': 'contentDetails'
+    };
+
+    var request = gapi.client.youtube.channels.list(params);
+    return request;
   }
 
   oauth() {

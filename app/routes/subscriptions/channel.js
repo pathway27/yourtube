@@ -14,13 +14,8 @@ export default class ChannelRoute extends ApplicationRoute {
     }
   }
 
-  async beforeModel() {
-    await this.youtube.loadGAPI()
-  }
-
   model({channel}) {
-    return {}
-    // return this.store.findRecord('channel', channel)
+    return this.store.findRecord('channel', channel)
   }
 
   // Scope out to Authenticated Mixin

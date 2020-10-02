@@ -10,7 +10,7 @@ export default class ApplicationStore extends Store {
     if (config.APP.useLocalJSON) {
       this.adapter = 'local'
     } else {
-      this.adapter = 'youtube'
+      this.adapter = 'youtube-api'
     }
   }
 }

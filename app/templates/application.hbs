@@ -1,13 +1,13 @@
 {{#mdc-top-app-bar style="dense"}}
   {{#mdc-top-app-bar-row}}
     {{#mdc-top-app-bar-section}}
-      {{mdc-top-app-bar-navigate-up-to "index"}}
+      {{!-- {{mdc-top-app-bar-navigate-up-to "index"}} --}}
       {{#mdc-top-app-bar-title}}Yourtube{{/mdc-top-app-bar-title}}
     {{/mdc-top-app-bar-section}}
   
     {{#mdc-top-app-bar-section position="alignEnd"}}
       <div>
-        {{#if youtube.authenticated}}
+        {{#if authenticated}}
           {{mdc-top-app-bar-action-item icon="account_circle" click=(action (mut openMenu) true)}}
         {{else}}
           {{mdc-top-app-bar-action-item icon="more_vert" click=(action (mut openMenu) true)}}

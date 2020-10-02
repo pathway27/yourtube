@@ -16,10 +16,6 @@ export default class SubscriptionsRoute extends ApplicationRoute {
     }
   }
 
-  async beforeModel() {
-    await this.youtube.loadGAPI()
-  }
-
   model() {
     return this.store.findAll('subscription')
   }

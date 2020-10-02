@@ -1,27 +1,29 @@
-{{#mdc-layout-grid}}
-  {{#mdc-layout-grid-cell desktopColumns=4 tabletColumns=4 phoneColumns=4}}
-    youtube.isAuthenticated: {{youtube.isAuthenticated}}
-  {{/mdc-layout-grid-cell}}
+{{#if development}}
+  {{#mdc-layout-grid}}
+    {{#mdc-layout-grid-cell desktopColumns=4 tabletColumns=4 phoneColumns=4}}
+      youtube.isAuthenticated: {{youtube.isAuthenticated}}
+    {{/mdc-layout-grid-cell}}
 
-  {{#mdc-layout-grid-cell desktopColumns=4 tabletColumns=4 phoneColumns=4}}
-    this.authenticated: {{this.authenticated}}
-  {{/mdc-layout-grid-cell}}
+    {{#mdc-layout-grid-cell desktopColumns=4 tabletColumns=4 phoneColumns=4}}
+      this.authenticated: {{this.authenticated}}
+    {{/mdc-layout-grid-cell}}
 
-  {{#mdc-layout-grid-cell desktopColumns=4 tabletColumns=4 phoneColumns=4}}
-    authenticated: {{authenticated}}
-  {{/mdc-layout-grid-cell}}
-{{/mdc-layout-grid}}
+    {{#mdc-layout-grid-cell desktopColumns=4 tabletColumns=4 phoneColumns=4}}
+      authenticated: {{authenticated}}
+    {{/mdc-layout-grid-cell}}
+  {{/mdc-layout-grid}}
 
-{{#mdc-layout-grid}}
-  {{#mdc-layout-grid-cell columns=12}}
-    youtube.user: {{json youtube.user}}
-  {{/mdc-layout-grid-cell}}
-{{/mdc-layout-grid}}
+  {{#mdc-layout-grid}}
+    {{#mdc-layout-grid-cell columns=12}}
+      youtube.user: {{json youtube.user}}
+    {{/mdc-layout-grid-cell}}
+  {{/mdc-layout-grid}}
+{{/if}}
 
 {{#mdc-layout-grid}}
   {{#mdc-layout-grid-cell columns=12}}
     {{#if youtube.isAuthenticated}}
-      logged in
+      Go to My Subscriptions
     {{else}}
       Please login
     {{/if}}

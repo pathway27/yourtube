@@ -1,0 +1,2351 @@
+{
+	"kind": "youtube#playlistItemListResponse",
+	"etag": "3nYQjgqG3rhOPhVknVHi4jqQLqU",
+	"nextPageToken": "CDIQAA",
+	"items": [
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "D6ppKigtcYvu6CaqXf1wTcVWDOc",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LjU2QjQ0RjZEMTA1NTdDQzY=",
+			"snippet": {
+				"publishedAt": "2020-10-04T22:11:52Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Bully Maguire Steals The Infinity Gauntlet",
+				"description": "Featuring footage from:\nMarvel's Avengers: Infinity War (2018)\nMarvel's Avengers: Endgame (2019)\nSony's Spider Man 2 (2004)\nSony's Spider Man 3 (2007)\n\nThis is another one of my Tobey/Bully Maguire and MCU Mashup in which after Doctor Strange tells Iron Man there is only one way to beat Thanos out of 14,000,605. Afterwards, Bully Maguire joins the battle on titan and steals the Infinity Gauntlet. This edit combines the Battle on Titan scene from Avengers: Infinity War and various scenes from the Spider-Man trilogy, including the dance scene from Spider-Man 3.\n\n\"You're trash\"\n\"Stings doesn't it?\"\n\"See ya chump\"\n\"There was no other way\"\n\nFor all my Tobey Maguire edits: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\nFor my edits of Tobey in the MCU: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjpe8HjpwfjeS3SRcsKbpoay\n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\n#BullyMaguire #TobeyInTheMCU #Avengers #InfinityWar",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/U_CF-86REfI/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/U_CF-86REfI/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/U_CF-86REfI/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/U_CF-86REfI/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/U_CF-86REfI/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 0,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "U_CF-86REfI"
+				}
+			},
+			"contentDetails": {
+				"videoId": "U_CF-86REfI",
+				"videoPublishedAt": "2020-10-04T22:19:18Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "HSiyuYJw_SVyy0y-j5iu5gUDTGc",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LjI4OUY0QTQ2REYwQTMwRDI=",
+			"snippet": {
+				"publishedAt": "2020-09-27T14:51:33Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Bully Maguire vs Hulk",
+				"description": "Featuring footage from:\nMarvel's Thor: Ragnarok (2017)\nSony's Spider Man (2002)\nSony's Spider Man 3 (2007)\n\nThis is another one of my Tobey/Bully Maguire and MCU Mashup in which Bully Maguire fights the Hulk in place of Thor. This edit combines the Thor vs Hulk Battle scene from Thor Ragnarok, the wrestling scene from Spider-Man and dance scenes from Spider Man 3.\n\n\"I'm gonna put some dirt in your eye\"\n\"This is something else!\"\n\"They love me!\"\n\"That's a cute outfit, did your husband give it you?\"\n\nFor all my Tobey Maguire edits: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\nFor my edits of Tobey in the MCU: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjpe8HjpwfjeS3SRcsKbpoay\n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\n#BullyMaguire #TobeyInTheMCU #Ragnarok",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/2WhXohj-6CU/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/2WhXohj-6CU/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/2WhXohj-6CU/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/2WhXohj-6CU/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/2WhXohj-6CU/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 1,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "2WhXohj-6CU"
+				}
+			},
+			"contentDetails": {
+				"videoId": "2WhXohj-6CU",
+				"videoPublishedAt": "2020-09-27T15:09:22Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "-Fl7dhTrgb9jW_BPm34nQD9hUTo",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LjAxNzIwOEZBQTg1MjMzRjk=",
+			"snippet": {
+				"publishedAt": "2020-09-18T14:24:48Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Bully Maguire Arrives In Wakanda",
+				"description": "Featuring footage from:\nMarvel's Avengers: Infinity War (2018)\nSony's Spider Man (2002)\nSony's Spider Man 2 (2004)\nSony's Spider Man 3 (2007)\n\nThis video is a remake of an older video, with better editing.\n\nThis is another one of my Tobey/Bully Maguire and MCU Mashup in which Bully Maguire Arrives In Wakanda instead of Thor. This edit combines the Thor Arrives In Wakanda scene from Avengers: Infinity War and various scenes from the Spider-Man trilogy, mostly from the \"I'm back! my back!\" scene and dancing scene.\n\n\"I'm gonna put some dirt in your eye\"\n\"I'm back! I'm back!\"\n\nFor all my Tobey Maguire edits: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\nFor my edits of Tobey in the MCU: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjpe8HjpwfjeS3SRcsKbpoay\n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\n#BullyMaguire #TobeyInTheMCU #Avengers #InfinityWar",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/nFvtHYKoZCg/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/nFvtHYKoZCg/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/nFvtHYKoZCg/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/nFvtHYKoZCg/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 2,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "nFvtHYKoZCg"
+				}
+			},
+			"contentDetails": {
+				"videoId": "nFvtHYKoZCg",
+				"videoPublishedAt": "2020-09-18T14:32:29Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "Eo2H_nfa_AvsGtIVUbu0qByLVxg",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LjUyMTUyQjQ5NDZDMkY3M0Y=",
+			"snippet": {
+				"publishedAt": "2020-09-14T22:49:43Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Bully Maguire Bargains with Dormammu",
+				"description": "Featuring footage from:\nMarvel's Doctor Strange (2016)\nSony's Spider Man 3 (2007)\nSony's Spider Man 2 (2004)\n\nThis is another one of my Tobey/Bully Maguire and MCU Mashup in which Bully Maguire bargains with Mr Ditkovitch (dormammu). This edit combines the \"I've come to bargain\" scene from Doctor Strange, Peter Parker dancing scenes from Spider-Man 3 and the I'm back scene from Spider-Man 2.\n\n\"You're trash\"\n\"You'll get your rent when you fix this damn door!\"\n\"I'm back!!\"\n\nFor all my Tobey Maguire edits: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\nFor my edits of Tobey in the MCU: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjpe8HjpwfjeS3SRcsKbpoay\n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\n#BullyMaguire #TobeyInTheMCU #DoctorStrange",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/Nzi0ATJEn1A/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/Nzi0ATJEn1A/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/Nzi0ATJEn1A/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/Nzi0ATJEn1A/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 3,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "Nzi0ATJEn1A"
+				}
+			},
+			"contentDetails": {
+				"videoId": "Nzi0ATJEn1A",
+				"videoPublishedAt": "2020-09-14T23:10:25Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "HpsItkDKomydQYw0V1Q98MOHE1k",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LjA5MDc5NkE3NUQxNTM5MzI=",
+			"snippet": {
+				"publishedAt": "2020-09-05T20:06:06Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Bully Maguire Ends the Final Battle",
+				"description": "Featuring footage from:\nMarvel's Avengers: Endgame (2019)\nSony's Spider Man 3 (2007)\n\nThis is another one of my Tobey/Bully Maguire and MCU Mashup in which Doctor Strange opens a portal for Bully Maguire, Thanos and his army are terrified. This edit combines the final battle/portals scene from Avengers: Endgame and Peter Parker dancing scenes from Spider-Man 3.\n\n\"See ya chump\"\n\nFor all my Tobey Maguire edits: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\nFor my edits of Tobey in the MCU: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjpe8HjpwfjeS3SRcsKbpoay\n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\n#BullyMaguire #TobeyInTheMCU #Avengers #Endgame",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/6lg-IxWEkAE/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/6lg-IxWEkAE/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/6lg-IxWEkAE/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 4,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "6lg-IxWEkAE"
+				}
+			},
+			"contentDetails": {
+				"videoId": "6lg-IxWEkAE",
+				"videoPublishedAt": "2020-09-05T20:13:57Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "KhAN6pJbosrg9m9zig_RmMzuFbM",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LjEyRUZCM0IxQzU3REU0RTE=",
+			"snippet": {
+				"publishedAt": "2020-08-29T20:14:48Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Thanos Almost Kills Bully Maguire",
+				"description": "Featuring footage from:\nMarvel's Avengers: Infinity War (2018)\nSony's Spider Man (2002)\nSony's Spider Man 2 (2004)\nSony's Spider Man 3 (2007)\nMarvel's Avengers: Endgame (2019)\n\nThis is another one of my Tobey/Bully Maguire and MCU Mashup in which Bully Maguire almost gets killed by Thanos after he snaps, luckily Peter ended up surviving in the end. This edit combines the Thor killing Thanos and the snap/turning to dust scenes from Avengers: Infinity War and various scenes from the Spider-Man trilogy.\n\n\"I missed the part where that's my problem\"\n\"Now dig on this\"\n\"Gonna Cry?\"\n\"You should have gone for the head\"\n\nFor all my Tobey Maguire edits: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\nFor my edits of Tobey in the MCU: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjpe8HjpwfjeS3SRcsKbpoay\n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\n#BullyMaguire #TobeyInTheMCU #Avengers #InfinityWar",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/nc-z04FI3dY/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/nc-z04FI3dY/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/nc-z04FI3dY/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/nc-z04FI3dY/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/nc-z04FI3dY/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 5,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "nc-z04FI3dY"
+				}
+			},
+			"contentDetails": {
+				"videoId": "nc-z04FI3dY",
+				"videoPublishedAt": "2020-08-29T20:24:06Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "JgpVDeyVuZh1i3M6K1phXniWKfE",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LjUzMkJCMEI0MjJGQkM3RUM=",
+			"snippet": {
+				"publishedAt": "2020-08-14T13:18:50Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Bully Maguire Forges Stormbreaker",
+				"description": "Featuring footage from:\nMarvel's Avengers: Infinity War (2018)\nSony's Spider Man 2 (2004)\nSony's Spider Man (2002)\n\nThis is another one of my Tobey/Bully Maguire and MCU Mashup in which Peter Parker Forges Stormbreaker, and then hurts his back. This edit mainly combines the train scene and the \"I'm back\" scene from Spider Man 2 and the Nidavellir scene from Infinity War in which Thor creates Stormbreaker alongside Rocket and Groot.\n\n\"I missed the part where that's my problem\"\n\"Oh my back! My back!\"\n\nFor all my Tobey Maguire edits: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\nFor my edits of Tobey in the MCU: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjpe8HjpwfjeS3SRcsKbpoay\n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\n#SpiderMan #TobeyInTheMCU #Avengers #InfinityWar",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/6SEpHPeqedY/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/6SEpHPeqedY/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/6SEpHPeqedY/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/6SEpHPeqedY/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/6SEpHPeqedY/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 6,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "6SEpHPeqedY"
+				}
+			},
+			"contentDetails": {
+				"videoId": "6SEpHPeqedY",
+				"videoPublishedAt": "2020-08-14T13:26:49Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "v6EKV7iPCm0uADYYkqslYg0Gib4",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LkNBQ0RENDY2QjNFRDE1NjU=",
+			"snippet": {
+				"publishedAt": "2020-08-05T10:51:28Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Bully Maguire Lifts Thor's Hammer",
+				"description": "Featuring footage from:\nMarvel's Avengers: Endgame (2019)\nSony's Spider Man 3 (2007)\n\nThis is another one of my Tobey/Bully Maguire and MCU Mashup in which Bully Maguire lifts Thor's hammer, snaps and defeats Thanos easily. This edit combines the final battle from Avengers: Endgame and Peter Parker dancing scenes from Spider-Man 3.\n\n\"I'm gonna put some dirt in your eye\"\n\"You're trash\"\n\nFor all my Tobey Maguire edits: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\nFor my edits of Tobey in the MCU: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjpe8HjpwfjeS3SRcsKbpoay\n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\n#BullyMaguire #TobeyInTheMCU #Avengers #Endgame",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/zjm3t4gwcqo/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/zjm3t4gwcqo/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/zjm3t4gwcqo/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/zjm3t4gwcqo/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 7,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "zjm3t4gwcqo"
+				}
+			},
+			"contentDetails": {
+				"videoId": "zjm3t4gwcqo",
+				"videoPublishedAt": "2020-08-05T10:59:04Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "UjKxT5wZQE1BeqCD4O4jVVhoteo",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93Ljk0OTVERkQ3OEQzNTkwNDM=",
+			"snippet": {
+				"publishedAt": "2020-08-04T09:56:31Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Bully Maguire takes out Nick Fury's eye",
+				"description": "Featuring footage from:\nMarvel's Captain Marvel (2019)\nMarvel's Captain America: The Winter Soldier (2014)\nSony's Spider Man 2 (2004)\nSony's Spider Man 3 (2007)\n\nThis is another one of my Tobey/Bully Maguire and MCU Mashup in which Nick Fury flashes back to when Bully Maguire put dirt in his eye after Fury tells him he doesn't know how to fly. This edit combines the Cat scratching Nick Fury scene from Captain Marvel and scenes from Spider-Man 2 and 3.\n\n\"Last time I trusted someone I lost an eye\"\n\"I'm gonna put some dirt in your eye\"\n\nFor all my Tobey Maguire edits: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\nFor my edits of Tobey in the MCU: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjpe8HjpwfjeS3SRcsKbpoay\n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\n#BullyMaguire #TobeyInTheMCU #SpiderMan",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/J3ZG-Xd5fEk/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/J3ZG-Xd5fEk/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/J3ZG-Xd5fEk/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 8,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "J3ZG-Xd5fEk"
+				}
+			},
+			"contentDetails": {
+				"videoId": "J3ZG-Xd5fEk",
+				"videoPublishedAt": "2020-08-04T10:06:43Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "byp9BRM7DngPdMz14aAodRLW0nw",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LkY2M0NENEQwNDE5OEIwNDY=",
+			"snippet": {
+				"publishedAt": "2020-07-31T15:46:53Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Bully Maguire Defeats Mysterio",
+				"description": "Featuring footage from:\nMarvel and Sony's Spider Man: Far From Home (2019)\nSony's Spider Man 3 (2007)\n\nThanks to everyone who suggested to do a Tobey and Mysterio video!\n\nThis is another one of my Tobey/Bully Maguire and MCU Mashup in which Bully Maguire Defeats Mysterio even with all his illusions, he just dances straight through. This edit combines the final battle between Spider-Man and Mysterio in Far From Home, and Peter Parker dancing scenes from Spider-Man 3.\n\n\"Now dig on this\"\n\"Good riddance\"\n\nFor all my Tobey Maguire edits: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\nFor my edits of Tobey in the MCU: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjpe8HjpwfjeS3SRcsKbpoay\n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\n#BullyMaguire #TobeyInTheMCU #SpiderMan",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/HO5T-53lXwY/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/HO5T-53lXwY/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/HO5T-53lXwY/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/HO5T-53lXwY/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/HO5T-53lXwY/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 9,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "HO5T-53lXwY"
+				}
+			},
+			"contentDetails": {
+				"videoId": "HO5T-53lXwY",
+				"videoPublishedAt": "2020-07-31T15:56:24Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "p-4Aa8o1tFhXSTreTvw77D5iJvo",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LjQ3NkIwREMyNUQ3REVFOEE=",
+			"snippet": {
+				"publishedAt": "2020-07-29T21:24:43Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Tobey Delivers Pizza to Emperor Palpatine",
+				"description": "Featuring footage from:\nStar Wars Episode III: Revenge of the Sith (2005)\nSpider Man (2002)\nSpider Man 2 (2004)\n\nMr Aziz tells Peter Parker he needs to deliver Pizza across the galaxy to Chancellor Palpatine, in under 29 minutes.\n\nThis is another Tobey/Bully Maguire and Star Wars Mashup.\nThis video combines the Pizza Time scene and various scenes from Revenge of the Sith. \n\n\"Execute order 66\"\n\"Pizza Time\"\n\"GOoOoOO\"\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\nTobey Maguire Edits playlist: \nhttps://www.youtube.com/watch?v=duR8-pwt7sM&list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\nTobey In Star Wars: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjryv3uDQU-VoR2LLWxhqzt3\n\n#TobeyInStarWars #SpiderMan #PizzaTime",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/D5Q31KBtca0/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/D5Q31KBtca0/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/D5Q31KBtca0/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/D5Q31KBtca0/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/D5Q31KBtca0/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 10,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "D5Q31KBtca0"
+				}
+			},
+			"contentDetails": {
+				"videoId": "D5Q31KBtca0",
+				"videoPublishedAt": "2020-07-29T21:33:46Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "7e0aOiROqaJDo_L7ln35JFtaHoU",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LkQwQTBFRjkzRENFNTc0MkI=",
+			"snippet": {
+				"publishedAt": "2020-07-19T16:55:18Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Bully Maguire Bullies Peter Parker (Extended Version)",
+				"description": "Featuring footage from:\nMarvel and Sony's Spider Man: Homecoming (2017)\nSony's Spider Man 3 (2007)\nSony's Spider Man (2002)\nMarvel and Sony's Spider Man: Far From Home (2019)\n\nThis is another one of my Tobey/Bully Maguire and MCU Mashup in which Bully Maguire (Emo Peter) Bullies Peter Parker after he fails to save the boat.\n\nFor all my Tobey Maguire edits: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\nFor my edits of Tobey in the MCU: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjpe8HjpwfjeS3SRcsKbpoay\n\n\nEvery line Tobey has in this video is one of his one-liners:\n\"I'm gonna put some dirt in your eye\"\n\"You're trash, Peter\" \n\"You want forgiveness? Get religion\"\n\"You should have thought of that earlier\"\n\"I missed the part where that's my problem\" \n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\n#BullyMaguire #TobeyInTheMCU #SpiderMan",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/Ts6QKWcb73Q/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/Ts6QKWcb73Q/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/Ts6QKWcb73Q/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/Ts6QKWcb73Q/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 11,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "Ts6QKWcb73Q"
+				}
+			},
+			"contentDetails": {
+				"videoId": "Ts6QKWcb73Q",
+				"videoPublishedAt": "2020-07-19T17:07:24Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "xooKYfCezy3X4b1_esxHGTHJBGg",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93Ljk4NEM1ODRCMDg2QUE2RDI=",
+			"snippet": {
+				"publishedAt": "2020-07-17T14:42:36Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Tobey saves the boat - Spider-Man: Homecoming",
+				"description": "Peter Parker (Tobey Maguire) saves the ferry from Spider-Man: Homecoming after Peter Parker (Tom Holland) fails to do so.\n\nFeaturing footage from:\nMarvel's Spider Man: Homecoming (2017)\nSony's Spider Man 2 (2004)\n\nThis is another Tobey/Bully Maguire and MCU Mashup which combines the train scene from Spider Man 2 and the ferry scene from Homecoming.\n\nFor all my Tobey Maguire edits: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\nFor my edits of Tobey in the MCU: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjpe8HjpwfjeS3SRcsKbpoay\n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\n#TobeyInTheMCU #SpiderMan #Homecoming",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/0y-W1G8_wQU/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/0y-W1G8_wQU/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/0y-W1G8_wQU/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/0y-W1G8_wQU/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/0y-W1G8_wQU/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 12,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "0y-W1G8_wQU"
+				}
+			},
+			"contentDetails": {
+				"videoId": "0y-W1G8_wQU",
+				"videoPublishedAt": "2020-07-17T14:51:54Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "SpbNpEkIp78jAEYLa_Kcb3UQIcQ",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LjMwODkyRDkwRUMwQzU1ODY=",
+			"snippet": {
+				"publishedAt": "2020-07-13T18:57:09Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Bully Maguire Bullies Thor",
+				"description": "Featuring footage from:\nMarvel's Avengers: Endgame (2019)\nSony's Spider Man 3 (2007)\n\nFat Thor and Tobey are on Asgard in 2013, Thor starts getting emotional so Emo Peter Parker makes bullies him and then motivates him. \n\nThis is another one of my Tobey/Bully Maguire and MCU Mashup in which Bully Maguire bullies Thor, and tells him to get right back on the horse.\n\n\"Look at little Odin Jr. Gonna cry?\"\n\"No.... yes\"\n\nFor all my Tobey Maguire edits: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\nFor my edits of Tobey in the MCU: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjpe8HjpwfjeS3SRcsKbpoay\n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\n#BullyMaguire #TobeyInTheMCU #SpiderMan",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/Sr77jlXNB9w/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/Sr77jlXNB9w/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/Sr77jlXNB9w/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/Sr77jlXNB9w/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 13,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "Sr77jlXNB9w"
+				}
+			},
+			"contentDetails": {
+				"videoId": "Sr77jlXNB9w",
+				"videoPublishedAt": "2020-07-13T19:07:09Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "isUBYuciOvRHDIb10gXqEIjEkTs",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LjUzOTZBMDExOTM0OTgwOEU=",
+			"snippet": {
+				"publishedAt": "2020-07-11T18:37:08Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Tobey saves Peter Parker from a Train",
+				"description": "Peter Parker (Tom Holland) gets hits by a train and Peter Parker (Tobey Maguire) stops the train the hits him.\n\nFeaturing footage from:\nMarvel's Spider Man: Far From Home (2019)\nSony Spider Man 2 (2004)\n\nThis is another Tobey/Bully Maguire and MCU Mashup which combines the two train scenes from Spider Man 2 and Far From Home.\n\nFor all my Tobey Maguire edits: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\nFor my edits of Tobey in the MCU: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjpe8HjpwfjeS3SRcsKbpoay\n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\n#TobeyInTheMCU #SpiderMan #FarFromHome #TrainScene",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/BXk7pHWKlG4/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/BXk7pHWKlG4/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/BXk7pHWKlG4/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/BXk7pHWKlG4/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 14,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "BXk7pHWKlG4"
+				}
+			},
+			"contentDetails": {
+				"videoId": "BXk7pHWKlG4",
+				"videoPublishedAt": "2020-07-11T19:00:34Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "IxXa0JJRHW7yaVNCntpksx8O9Os",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LkRBQTU1MUNGNzAwODQ0QzM=",
+			"snippet": {
+				"publishedAt": "2020-07-09T19:47:28Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Tobey jumps out of a plane",
+				"description": "Featuring footage from:\nMarvel's Thor: Ragnarok (2017)\nSony's Spider Man 2 (2004)\n\nThanks to @Alexander Spools for suggesting this video!\n\nThis is another Tobey/Bully Maguire and MCU Mashup. In this video, a beast is going after the people of Asgard, so in order to stop it. Tobey tells Valkyrie he is going to jump out of the plane, which he does and he ends up hurting his back.\n\n\"Strong focus on what I want\" \n\"I'm back! My back! oh my back!\"\n\nFor all my Tobey Maguire edits: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\nFor my edits of Tobey in the MCU: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjpe8HjpwfjeS3SRcsKbpoay\n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\n#TobeyInTheMCU #SpiderMan #ThorRagnarok",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/mqhjWgcdurY/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/mqhjWgcdurY/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/mqhjWgcdurY/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/mqhjWgcdurY/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 15,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "mqhjWgcdurY"
+				}
+			},
+			"contentDetails": {
+				"videoId": "mqhjWgcdurY",
+				"videoPublishedAt": "2020-07-09T19:55:23Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "r3MosnKhv6lJ86GWfko8fEiO4S8",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LjVBNjVDRTExNUI4NzM1OEQ=",
+			"snippet": {
+				"publishedAt": "2020-06-30T07:33:10Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Tobey joins The Avengers",
+				"description": "I finally found a way to upload this, and I think it made the video even better, I replaced The Avengers Theme with the Spider-Man Main Titles music.\n\nPeter Parker joins the Avengers in the Battle of New York and saves the day.\n\nFeaturing footage from:\nMarvel's The Avengers (2012)\nSony Spider Man (2002)\nSony Spider Man 2 (2004)\nSony Spider Man 3 (2007)\n\nThis is another Tobey/Bully Maguire and MCU Mashup.\n\n\"Strong focus on what I want\" \n\nFor all my Tobey Maguire edits: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\nFor my edits of Tobey in the MCU: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjpe8HjpwfjeS3SRcsKbpoay\n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\n#Avengers #TobeyInTheMCU #SpiderMan",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/cEns21BtFPs/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/cEns21BtFPs/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/cEns21BtFPs/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/cEns21BtFPs/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/cEns21BtFPs/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 16,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "cEns21BtFPs"
+				}
+			},
+			"contentDetails": {
+				"videoId": "cEns21BtFPs",
+				"videoPublishedAt": "2020-06-30T07:41:57Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "OBRYHD-nJdwDZBoe0RnFwIt9oJ8",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LjIxRDJBNDMyNEM3MzJBMzI=",
+			"snippet": {
+				"publishedAt": "2020-06-27T17:50:55Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Tobey exposes Peter Parker",
+				"description": "This video is a sequel to my recent video: \"Peter Parker Almost Kills Bully Maguire\"\n\nThis video was supposed to be longer, sadly it got copyrighted so I had to cut some of the video. Link to the full video on Twitter will be in the pinned comment. \n\nFeaturing footage from:\nMarvel and Sony's Spider Man: Far From Home (2019)\nSony's Spider Man (2002)\nSony's Spider Man 2 (2004)\n\nThis is another one of my Tobey/Bully Maguire and MCU Mashup. After Peter Parker nearly kills Tobey, he decides to expose him by publishing the footage to the Daily Bugle. This scene is based of the End Credit scene of Spider-Man: Far From Home.\n\nFor all my Tobey Maguire edits: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\nFor my edits of Tobey in the MCU: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjpe8HjpwfjeS3SRcsKbpoay\n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\n#TobeyInTheMCU #SpiderMan #PeterParker",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/NKFriEdpgKo/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/NKFriEdpgKo/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/NKFriEdpgKo/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/NKFriEdpgKo/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/NKFriEdpgKo/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 17,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "NKFriEdpgKo"
+				}
+			},
+			"contentDetails": {
+				"videoId": "NKFriEdpgKo",
+				"videoPublishedAt": "2020-06-27T17:56:44Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "eZifMuZsvdpS--atCxX3PAjjEyk",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LjlFODE0NEEzNTBGNDQwOEI=",
+			"snippet": {
+				"publishedAt": "2020-06-21T18:21:42Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Bully Maguire Saves The Galaxy",
+				"description": "Thanks to @Poiuy Yuiop for suggesting this video!\n\nFeaturing footage from:\nStar Wars: Return of the Jedi (1983)\nSpider Man (2002)\nSpider Man 3 (2007)\n\nBully Maguire/Emo Peter Parker dances into the Throne Room and defeats Emperor Palpatine thus redeeming himself and bringing peace to the Galaxy.\n\nThis is another Tobey/Bully Maguire and Star Wars Mashup.\nThis video is an edit of the Throne Room scene, where instead of Luke and Vader entering, Tobey comes in and dances and then throws the Emperor down the Death Star.\n\n\"I missed the part where that's my problem\"\n\"Stings, doesn't it?\"\n\"See ya chump\"\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\nTobey Maguire Edits playlist: \nhttps://www.youtube.com/watch?v=duR8-pwt7sM&list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\nTobey In Star Wars: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjryv3uDQU-VoR2LLWxhqzt3\n\n#BullyMaguire #TobeyInStarWars #SpiderMan",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/pWGn-9qV5t4/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/pWGn-9qV5t4/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/pWGn-9qV5t4/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/pWGn-9qV5t4/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/pWGn-9qV5t4/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 18,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "pWGn-9qV5t4"
+				}
+			},
+			"contentDetails": {
+				"videoId": "pWGn-9qV5t4",
+				"videoPublishedAt": "2020-06-21T18:34:21Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "UZhDtuMhELUfdakAmpmoxpLSQ9U",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LkQ0NThDQzhEMTE3MzUyNzI=",
+			"snippet": {
+				"publishedAt": "2020-06-19T11:55:37Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "The Washington Monument blowing up isn't Tobeys Problem",
+				"description": "Thanks to @Lego Batman 27 for the suggestion.\n\nFeaturing footage from:\nMarvel and Sony Spider Man: Homecoming (2017)\nSony Spider Man (2002)\nSony Spider Man 2 (2004)\n\nThis is another one of my Tobey/Bully Maguire and MCU Mashup in which Peter Parker sees the Washington Monument blowing up and he doesn't care, he just continues eating his hotdog. \n\n\"I missed the part where that's my problem\"\n\nFor all my Tobey Maguire edits: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\nFor my edits of Tobey in the MCU: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjpe8HjpwfjeS3SRcsKbpoay\n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\n#TobeyInTheMCU #SpiderMan #BullyMaguire",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/Inz3et06C-s/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/Inz3et06C-s/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/Inz3et06C-s/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/Inz3et06C-s/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/Inz3et06C-s/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 19,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "Inz3et06C-s"
+				}
+			},
+			"contentDetails": {
+				"videoId": "Inz3et06C-s",
+				"videoPublishedAt": "2020-06-19T12:11:50Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "iWPM5YuUBUPXdSJb3UnYfyx_xek",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LjIwOEEyQ0E2NEMyNDFBODU=",
+			"snippet": {
+				"publishedAt": "2020-06-08T21:35:29Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Peter Parker Almost Kills Bully Maguire",
+				"description": "Featuring footage from:\nMarvel and Sony's Spider Man: Far From Home (2019)\nSony's Spider Man (2002)\nSony's Spider Man 2 (2004)\n\nPeter Parker is tired of getting bullied by Bully Maguire, so he orders a drone strike on him.\n\nThis is another one of my Tobey/Bully Maguire and MCU Mashup in which Bully Maguire is trying to catch the bus while Peter Parker is ordering a drone strike.\n\n\"I'm gonna put some dirt in your eye\"\n\nFor all my Tobey Maguire edits: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\nFor my edits of Tobey in the MCU: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjpe8HjpwfjeS3SRcsKbpoay\n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\n#BullyMaguire #TobeyInTheMCU #SpiderMan",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/hzJ0k9UhFtk/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/hzJ0k9UhFtk/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/hzJ0k9UhFtk/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/hzJ0k9UhFtk/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/hzJ0k9UhFtk/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 20,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "hzJ0k9UhFtk"
+				}
+			},
+			"contentDetails": {
+				"videoId": "hzJ0k9UhFtk",
+				"videoPublishedAt": "2020-06-08T21:46:33Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "OVjCB8S_KJdqqCqaVQqb779Qz4g",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LkYzRDczQzMzNjk1MkU1N0Q=",
+			"snippet": {
+				"publishedAt": "2020-06-05T14:47:16Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Darth Vader Reveals the Truth about Peter Parker's Father",
+				"description": "Featuring footage from:\nStar Wars: The Empire Strikes Back (1980)\nSpider Man (2002)\nSpider Man 2 (2004)\nSpider Man 3 (2007)\n\nDarth Vader reveals to Peter Parker that he is actually his father.\n\nThis is another Tobey/Bully Maguire and Star Wars Mashup.\nThis video is another edit of the I am your Father scene, except this time Tobey is Luke Skywalker instead of Darth Vader.\n\n\"See ya chump\"\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\nTobey Maguire Edits playlist: \nhttps://www.youtube.com/watch?v=duR8-pwt7sM&list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\nTobey In Star Wars: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjryv3uDQU-VoR2LLWxhqzt3\n\n#BullyMaguire #TobeyInStarWars #SpiderMan",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/d33D58l7ygE/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/d33D58l7ygE/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/d33D58l7ygE/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/d33D58l7ygE/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/d33D58l7ygE/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 21,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "d33D58l7ygE"
+				}
+			},
+			"contentDetails": {
+				"videoId": "d33D58l7ygE",
+				"videoPublishedAt": "2020-06-05T14:54:03Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "pnzrFH6vAZd4J5thU4bcBYsSWWA",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LjNGMzQyRUJFODQyRjJBMzQ=",
+			"snippet": {
+				"publishedAt": "2020-06-01T14:37:08Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Tobey goes running with Steve Rogers",
+				"description": "Peter Parker goes running with Captain America and recommends him a great movie trilogy. The video is based on the \"I'm back\" scene from Spider Man 2 and the opening \"On your left\" scene from Captain America 2.\n\nFeaturing footage from:\nSony's Spider Man 2 (2004)\nMarvel's Captain America: The Winter Soldier (2014)\n\n\"On your left\"\n\"Strong focus on what I want\"\n\"I missed the part where that's my problem\"\n\nFor all my Tobey Maguire edits: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\nFor my edits of Tobey in the MCU: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjpe8HjpwfjeS3SRcsKbpoay\n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\n#TobeyInTheMCU #SpiderMan #CaptainAmerica",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/wcwaILD9oF8/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/wcwaILD9oF8/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/wcwaILD9oF8/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/wcwaILD9oF8/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 22,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "wcwaILD9oF8"
+				}
+			},
+			"contentDetails": {
+				"videoId": "wcwaILD9oF8",
+				"videoPublishedAt": "2020-06-01T14:46:56Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "PI7chywaiAzkCVwDWuOih4pvJLk",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93Ljk3NTBCQjUzRTE1OEEyRTQ=",
+			"snippet": {
+				"publishedAt": "2020-05-15T07:16:38Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Peter Parker delivers Pizza to Shrek",
+				"description": "Pizza Time\n\nincorporates footage from:\nShrek (2001)\nSpider Man (2002)\nSpider Man 2 (2004)\n\nIn this meme, Tobey Maguire's Peter Parker delivers Pizza to Shreks Swamp and he isn't too happy about it...\n\nOh hello there, WHAT ARE YOU DOING IN MY SWAMP?? \n\n#Shrek #SpiderMan #PizzaTime",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/5AH-TMLP8P8/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/5AH-TMLP8P8/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/5AH-TMLP8P8/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/5AH-TMLP8P8/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/5AH-TMLP8P8/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 23,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "5AH-TMLP8P8"
+				}
+			},
+			"contentDetails": {
+				"videoId": "5AH-TMLP8P8",
+				"videoPublishedAt": "2020-05-15T07:29:11Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "_r81UE9otBOt3TStL4dSHa9xRPA",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LkM3MTVGNkQxRkIyMDREMEE=",
+			"snippet": {
+				"publishedAt": "2020-05-06T17:30:00Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Star Wars: The Rise of Endgame",
+				"description": "I'm on to you Disney.\n\nThis video is meant to be a fun little video showing how Rise of Skywalker kind of copied Avengers Endgame. These scenes line SURPRISINGLY well.\n\nThe goal of this video is to show some blatant similarities between Star Wars: The Rise Skywalker and Avengers: Endgame. These take form with their being a version of the Portals scene and the I am Iron Man scene in The Rise of Skywalker. \n\nIn the video, I combined parts of the final battles from the two movies, so instead of other superheroes, Lando and the Millennium Falcon show up to help Captain America. Instead of Rey replying to Palpatine after he says: \"I am all the sith\" you have Iron Man reply. \n\nFeaturing footage from:\nLucasfilm's Star Wars: The Rise of Skywalker (2019)\nMarvel's Avengers: Endgame (2019)\n\nFor more Star Wars videos:\nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjr6AyKDPiCPaiJfbk3r19vO\n\nFor more Marvel videos:\nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjpe8HjpwfjeS3SRcsKbpoay\n\n#RiseOfSkywalker #Endgame",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/oqtEBHhcyY8/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/oqtEBHhcyY8/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/oqtEBHhcyY8/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/oqtEBHhcyY8/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/oqtEBHhcyY8/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 24,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "oqtEBHhcyY8"
+				}
+			},
+			"contentDetails": {
+				"videoId": "oqtEBHhcyY8",
+				"videoPublishedAt": "2020-05-06T17:47:38Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "W7nc4hP47gojPhdv7dfI5eTOAhw",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LjcxMjU0MjA5MzBCMjEzM0Y=",
+			"snippet": {
+				"publishedAt": "2020-04-23T08:21:31Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Bully Maguire Bullies Peter Parker (School Edition)",
+				"description": "Featuring footage from:\nMarvel and Sony Spider Man: Homecoming (2017)\nSony Spider Man (2002)\nSony Spider Man 2 (2004)\nSony Spider Man 3 (2007)\n\nThis is another one of my Tobey/Bully Maguire and MCU Mashup in which Bully Maguire Bullies Peter Parker throughout the school day, in class, during lunch break and even on the way to school.\n\n\"You're trash\" \n\"I'm gonna put some dirt in your eye\"\n\nFor all my Tobey Maguire edits: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\nFor my edits of Tobey in the MCU: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjpe8HjpwfjeS3SRcsKbpoay\n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\n#BullyMaguire #TobeyInTheMCU #SpiderMan",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/X9o10QO-pLs/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/X9o10QO-pLs/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/X9o10QO-pLs/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/X9o10QO-pLs/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 25,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "X9o10QO-pLs"
+				}
+			},
+			"contentDetails": {
+				"videoId": "X9o10QO-pLs",
+				"videoPublishedAt": "2020-04-23T08:33:42Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "N4wEzMQVlas0pStEQh21CN8v79Y",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LkNDQzJDRjgzODQzRUY4RjA=",
+			"snippet": {
+				"publishedAt": "2020-04-06T13:57:00Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Peter Parker Reveals his Secret Identity",
+				"description": "This video incorporates footage from:\nSony's Spider Man (2002)\nSony's Spider Man 2 (2004)\nSony's Spider Man 3 (2007)\nMarvel's Iron Man (2008)\n\nThis is another Tobey Maguire and MCU Mashup in which Peter Parker reveals to the public that he is actually Spider Man. The scene is based on the ending of the first Iron Man movie in which Tony Stark reveals that he is Iron Man. The \"I am Iron Man\" scene, one of the scenes that defined the MCU as a franchise.\n\n\"See ya chump\" \n\nIf you like what you see be sure to like, comment, share and subscribe!\n\nFor more of Tobey Maguire's Spider-Man in the MCU: https://www.youtube.com/playlist?list=PLhfVFk3GcRjpe8HjpwfjeS3SRcsKbpoay\n\nFor all Spider-Man edits on the channel: https://www.youtube.com/playlist?list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\n#SpiderMan #TobeyInTheMCU #PeterParker \n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/DXzbO_m8OC4/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/DXzbO_m8OC4/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/DXzbO_m8OC4/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/DXzbO_m8OC4/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/DXzbO_m8OC4/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 26,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "DXzbO_m8OC4"
+				}
+			},
+			"contentDetails": {
+				"videoId": "DXzbO_m8OC4",
+				"videoPublishedAt": "2020-04-06T14:10:31Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "kBN028URfpk6NQbeMZcAGpEvWNE",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LjJBQTZDQkQxOTg1MzdFNkI=",
+			"snippet": {
+				"publishedAt": "2020-04-02T15:03:21Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Palpatine tells the Avengers the Tragedy of Darth Plagueis the Wise",
+				"description": "Emperor Palpatine or Darth Sidious tells the Avengers the Tragedy of Darth Plagueis the wise.\nBefore Tony Stark / Iron Man, Thor and Steve Rogers / Captain America  confront Palpatine, he tells them a story. The story of Darth Plagueis the Wise. It's not a story the Jedi would tell them.\n\nVideo use footage from:\nStar Wars Episode III: Revenge of the Sith (2005)\nAvengers: Endgame (2019)\n\nThis is an MCU and Star Wars Mashup.\n#PrequelMemes #Endgame #Avengers\n\nFor more Prequel Memes and other Star Wars videos:\nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjr6AyKDPiCPaiJfbk3r19vO",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/6OfaMUcP6HI/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/6OfaMUcP6HI/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/6OfaMUcP6HI/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 27,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "6OfaMUcP6HI"
+				}
+			},
+			"contentDetails": {
+				"videoId": "6OfaMUcP6HI",
+				"videoPublishedAt": "2020-04-02T16:20:27Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "PVas85BQiV7G4CNT4rnEJgiSMUM",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LkMyRTg1NjVBQUZBNjAwMTc=",
+			"snippet": {
+				"publishedAt": "2020-03-29T09:35:24Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "PIZZA WARS: The Rise of Bully Maguire",
+				"description": "Featuring footage from:\nStar Wars Episode III: Revenge of the Sith (2005)\nSpider-Man (2002)\nSpider-Man 2 (2004)\nSpider-Man 3 (2007)\n\nI don't own any of the footage in the video, all rights go to their respective owners, Sony Pictures and Disney.\n\nPart 1 of 2. This a YTP of sorts.\nJedi Master Yoda tasks Jedi Tobey Maguire to deliver pizzas throughout the galaxy, something no Jedi has done successfully.  It could lead Tobey down a very dark path...\n\nFor more Tobey Maguire and Prequel Memes:\nStar Wars videos playlist: https://www.youtube.com/playlist?list=PLhfVFk3GcRjr6AyKDPiCPaiJfbk3r19vO\nTobey Maguire videos playlist: https://www.youtube.com/playlist?list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\nIf you like what you, be sure to like, comment, share and subscribe!\n\n#BullyMaguire #SpiderMan #TobeyInStarWars #PrequelMemes\n\nIf you want to read the rest of the description it's just random stuff I wrote for keywords...\nThe video features some of the best (at least in my opinion) meme scenes from Star Wars Episode III: Revenge of the Sith, including: The High Ground scene, The Mustafar Fight scene, Younglings scene and Order 66 (kind of).\n\nWhen it comes to Raimi memes, there is the Tobey Scream, Emo Parker, Bully Maguire dancing, I missed the part where that's my problem, I'm gonna put some dirt in your eye and of course Pizza Time.\n\nCharacters in the video:\nPeter Parker, Obi-Wan Kenobi, Mary Jane Watson, Master Yoda and Separatists.",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/X5arjmxk0y4/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/X5arjmxk0y4/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/X5arjmxk0y4/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/X5arjmxk0y4/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/X5arjmxk0y4/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 28,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "X5arjmxk0y4"
+				}
+			},
+			"contentDetails": {
+				"videoId": "X5arjmxk0y4",
+				"videoPublishedAt": "2020-03-29T21:15:11Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "mlxDUIfurEqzpAdqw-q6sbzbUn0",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LjgyNzlEQUFFQTYxN0VENTQ=",
+			"snippet": {
+				"publishedAt": "2020-03-15T10:29:40Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Jedi Voices Scene but it's Raimi Memes",
+				"description": "This is a re-upload of a video I released in December, then it was removed for copyright, now as the movie is out on Digital, it should be considered as fair use.\n\nThis video contains SPOILERS for The Rise of Skywalker\n\nThis is another Tobey/Bully Maguire and Star Wars Mashup.\nThis video uses footage from the Jedi Voices scene from Star Wars: The Rise of Skywalker and from the entire Raimi Spider Man trilogy!\n\nRey, is down. Suddenly, voices of people from the Raimi Spider Man trilogy call out to her, including Peter Parker, Normon Osborn, J Jonah Jameson, Mr. Aziz, Mr. Ditkovitch and more.\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\nTobey Maguire Edits playlist: \nhttps://www.youtube.com/watch?v=duR8-pwt7sM&list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\nStar Wars edits playlist: \nhttps://www.youtube.com/watch?v=9NLlKeqF6nU&list=PLhfVFk3GcRjr6AyKDPiCPaiJfbk3r19vO\n\n#TheRiseOfSkywalker #TobeyInStarWars #SpiderMan",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/a-LJbmE7SOc/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/a-LJbmE7SOc/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/a-LJbmE7SOc/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/a-LJbmE7SOc/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 29,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "a-LJbmE7SOc"
+				}
+			},
+			"contentDetails": {
+				"videoId": "a-LJbmE7SOc",
+				"videoPublishedAt": "2020-03-15T10:36:57Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "bmrfSTnfkprAcRRkGv3dgaRQ4mw",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93Ljc0OEVFODA5NERFNThGODc=",
+			"snippet": {
+				"publishedAt": "2020-02-08T18:23:05Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Peter Parker discusses the Droid Attack on the Wookies",
+				"description": "This is another one of my Tobey/Bully Maguire and Star Wars Mashup. This video uses footage from Star Wars Episode 3: Revenge of the Sith and from Sony's Spider Man and Spider Man 3!\n\nTobey Maguire misses the part where the droid attack on the Wookies is his problem. Yoda, Obi-Wan Kenobi, the Council and Anakin Skywalker all agree with Peter Parker So Emo Parker then starts dancing in front of the Jedi Council. \n\n\"What about the droid attack on the wookies\" \n\"I missed the part where thats my problem\"\n\"NOW DIG ON THIS\"\n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\nFor more Tobey and Star Wars edits: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\n#BullyMaguire #TobeyInStarWars #PrequelMemes",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/Z3TPuySd_G0/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/Z3TPuySd_G0/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/Z3TPuySd_G0/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/Z3TPuySd_G0/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 30,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "Z3TPuySd_G0"
+				}
+			},
+			"contentDetails": {
+				"videoId": "Z3TPuySd_G0",
+				"videoPublishedAt": "2020-02-08T18:34:02Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "ZBUHvo6jhQU-O6kzUwt6SrFzbNg",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LjVBRkZBNjk5MThBNERBRTg=",
+			"snippet": {
+				"publishedAt": "2020-01-20T13:47:40Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Star Wars ENDS 6 movies early",
+				"description": "For more Star Wars edits: \nhttps://www.youtube.com/playlist?list=PLhfVFk3GcRjr6AyKDPiCPaiJfbk3r19vO\n\nBe sure to subscribe for more Prequel Memes!\n\nAnakin Skywalker discovers that Chancellor Palpatine (not yet Emperor) is the Sith Lord, Darth Sidious. Anakin decides to ignite his Lightsaber and kill him on the spot. So Anakin ended The Skywalker Saga six movies early. This scene comes from Star Wars Episode 3: Revenge of the Sith. \n\nIf this actually happened the Rise of Skywalker and the rest of the sequel and original trilogy would have never happened.\n\n#RiseOfSkywalker #RevengeOfTheSith #PrequelMemes",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/A96xaSMU-dU/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/A96xaSMU-dU/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/A96xaSMU-dU/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/A96xaSMU-dU/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/A96xaSMU-dU/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 31,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "A96xaSMU-dU"
+				}
+			},
+			"contentDetails": {
+				"videoId": "A96xaSMU-dU",
+				"videoPublishedAt": "2020-01-20T21:00:02Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "MGkO8vvoAQUKhCAn_zIiDqJSH50",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LjNEMEM4RkM5QzQwNjk0QTM=",
+			"snippet": {
+				"publishedAt": "2019-12-27T14:17:21Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Peter Parker Flirts with Captain Marvel",
+				"description": "Peter Parker goes to Captain Marvel and starts reciting poetry to her. Carol Danvers really likes his poetry.\n\nThis is another one of Tobey/Bully Maguire and MCU Mashup featuring This footage from Marvels Avengers: Endgame and from Sony's Spider Man 2!\n\n\"Day by day he gazed upon her. Day by day he sighed with passion.\"\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\nTobey Maguire Edits playlist: https://www.youtube.com/playlist?list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.\n\n#TobeyMaguire #TobeyInTheMCU #SpiderMan",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/7aOkn_H9KPo/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/7aOkn_H9KPo/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/7aOkn_H9KPo/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/7aOkn_H9KPo/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/7aOkn_H9KPo/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 32,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "7aOkn_H9KPo"
+				}
+			},
+			"contentDetails": {
+				"videoId": "7aOkn_H9KPo",
+				"videoPublishedAt": "2019-12-27T14:25:09Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "s4AfIQtfIgLy3hxqKG1rxNXjeM4",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LkIwRDYyOTk1Nzc0NkVFQ0E=",
+			"snippet": {
+				"publishedAt": "2019-12-17T08:02:05Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Baby Yoda summons Tobey Maguire",
+				"description": "Baby Yoda pushes buttons which orders a pizza from Tobey Maguire, he then puts on his favourite Emo Parker music.\n\nThis is another Tobey/Bully Maguire and Star Wars Mashup.\nThis video uses footage from the Baby Yoda pressing buttons scene from The Mandalorian and from Sony's Spider Man 2 and 3!\n\nPIZZA TIME\n\nIf you want to see more memes like this, be sure to like, comment, share and subscribe!\n\nTobey Maguire Edits playlist: \nhttps://www.youtube.com/watch?v=duR8-pwt7sM&list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\nBaby Yoda Edits: \nhttps://www.youtube.com/watch?v=g2qd1qxSptg&list=PLhfVFk3GcRjo53xZMe1a9JMS8A8Zu4s6b\n \nThe Rise of Skywalker is releasing tomorrow!\n\n#BullyMaguire #TobeyInStarWars #BabyYoda",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/TFiQBhAA0Aw/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/TFiQBhAA0Aw/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/TFiQBhAA0Aw/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/TFiQBhAA0Aw/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 33,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "TFiQBhAA0Aw"
+				}
+			},
+			"contentDetails": {
+				"videoId": "TFiQBhAA0Aw",
+				"videoPublishedAt": "2019-12-17T08:21:42Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "X6Ss6OcNn_ghwQpATc4OCs21y2M",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LjYxMjg2NzZCMzVGNTUyOUY=",
+			"snippet": {
+				"publishedAt": "2019-12-12T06:34:24Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Peter Parker Reacts to Ben Kenobi's Death",
+				"description": "Tobey Maguire sees Uncle Ben Kenobi die and shoots Stormtroopers afterwards.\nThis is another Tobey/Bully Maguire and Star Wars Mashup.\nThis video uses footage from the Obi Wan Kenobi's Death scene from Star Wars Episode IV: A New Hope and from Sony's Spider Man 2!\n\n*Tobey Maguire Scream* AHHHHHHHHH!!\n\nIf you want to see more meme like this, be sure to like, comment, share and subscribe!\n\nTobey Maguire Edits playlist: \nhttps://www.youtube.com/watch?v=duR8-pwt7sM&list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\nThe Rise of Skywalker is releasing soon!\n\n#BullyMaguire #TobeyInStarWars #SpiderMan",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/A-iYnneL9WE/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/A-iYnneL9WE/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/A-iYnneL9WE/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/A-iYnneL9WE/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 34,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "A-iYnneL9WE"
+				}
+			},
+			"contentDetails": {
+				"videoId": "A-iYnneL9WE",
+				"videoPublishedAt": "2019-12-12T06:41:06Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "2zFFFHvvAyJb_jz_M8-alPGXuTY",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LjlGM0UwOEZDRDZGQUJBNzU=",
+			"snippet": {
+				"publishedAt": "2019-12-08T16:55:04Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Baby Yoda Assembles The Avengers",
+				"description": "I am continuing to watch the new Star Wars Series: The Mandalorian, and I still really like Baby Yoda. So I made another edit, in which he Assembles The Avengers and Summons Thors Hammer. This is already my second Baby Yoda In The MCU. This edit is based on a scene from Avengers: Endgame.\n\nIf you want to see more like this consider giving a like, comment share, and subscribe!\n\n#BabyYoda #TheMandalorian #StarWars",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/g2qd1qxSptg/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/g2qd1qxSptg/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/g2qd1qxSptg/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/g2qd1qxSptg/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/g2qd1qxSptg/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 35,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "g2qd1qxSptg"
+				}
+			},
+			"contentDetails": {
+				"videoId": "g2qd1qxSptg",
+				"videoPublishedAt": "2019-12-08T17:02:30Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "fYJQFehWsiBTJjJ5YsbUdprqXZc",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LjRBMDc1NTZGQzVDOUIzNjE=",
+			"snippet": {
+				"publishedAt": "2019-11-26T18:05:47Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Baby Yoda uses The Force against Thanos",
+				"description": "A bit of a departure for my usual Tobey Maguire memes. \nI hope you like it anyway.\n\nI recently watched the new Star Wars Series: The Mandalorian, and I liked Baby Yoda. So I thought what if I had him use the Force against Thanos, and that is this video. So I guess I'm starting Baby Yoda In The MCU. This edit is based on a scene from Avengers: Infinity War.\n\nIf you want to see more like this consider giving a like, comment share, and subscribe!\n\n#BabyYoda #TheMandalorian #StarWars",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/9NLlKeqF6nU/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/9NLlKeqF6nU/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/9NLlKeqF6nU/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/9NLlKeqF6nU/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/9NLlKeqF6nU/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 36,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "9NLlKeqF6nU"
+				}
+			},
+			"contentDetails": {
+				"videoId": "9NLlKeqF6nU",
+				"videoPublishedAt": "2019-11-26T18:15:46Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "9-V_wvsc9oyEWR_fV5pI_gXyysY",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LkFGMkM4OTlEQzQ2OTMxQjI=",
+			"snippet": {
+				"publishedAt": "2019-11-24T18:53:45Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Avengers: Pizza Time",
+				"description": "The Avengers are right after a battle with Loki and his forces and are a bit hungry. So Tobey Maguire rushes to deliver them Pizza Time, even though Tony wanted Shwarma...\nThis is another one of my Tobey/Bully Maguire and MCU Mashup. This video uses footage from Marvels The Avengers and from Sony's Spider Man 2!\n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.\n\nFor more great Bully and Tobey Maguire content, subscribe!\nFor the rest of my Tobey edits click here: https://www.youtube.com/watch?v=WajX4TLOurU&list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\n#TobeyMaguire #PizzaTime #TobeyInTheMCU",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/7NImUcK0cbo/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/7NImUcK0cbo/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/7NImUcK0cbo/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/7NImUcK0cbo/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/7NImUcK0cbo/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 37,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "7NImUcK0cbo"
+				}
+			},
+			"contentDetails": {
+				"videoId": "7NImUcK0cbo",
+				"videoPublishedAt": "2019-11-24T19:04:50Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "dz_UdUBul8_QC6ehO0Zjw9Tu3M0",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LjE5MTNDOEFDNTcwM0M2NzM=",
+			"snippet": {
+				"publishedAt": "2019-11-19T11:17:41Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Bully Maguire Bullies Captain America",
+				"description": "This is another one of my Tobey/Bully Maguire and MCU Mashup in which Bully Maguire learns to use his powers and then bullies Steve Rogers/Captain America with them... This video uses footage from Marvels Captain America: Civil War (Avengers 2.5) and from Sony's Spider Man!\n\n\"Up up and away web!\" \n\"SHAZAM!\"\n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\nWatch some other Tobey In The MCU edits:\nPizza Time for Thanos: https://www.youtube.com/watch?v=duR8-pwt7sM\nIron Man, Gonna Cry?: https://www.youtube.com/watch?v=kTfKivTB_cc\nBully Maguire Arrives In Wakanda: https://youtu.be/qriwa-fNUzE\n\nFull Tobey Maguire Edits playlist: https://www.youtube.com/watch?v=WajX4TLOurU&list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\n#BullyMaguire #TobeyInTheMCU #SpiderMan",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/MxdkJlWnQGk/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/MxdkJlWnQGk/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/MxdkJlWnQGk/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/MxdkJlWnQGk/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/MxdkJlWnQGk/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 38,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "MxdkJlWnQGk"
+				}
+			},
+			"contentDetails": {
+				"videoId": "MxdkJlWnQGk",
+				"videoPublishedAt": "2019-11-19T11:26:27Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "jDdvRkium2mfYj2MqPvFrAkm8v8",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LkY0ODU2NzVDNkRGOUVGMTk=",
+			"snippet": {
+				"publishedAt": "2019-11-05T20:32:44Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Peter Parker Ghosts Tobey Maguire",
+				"description": "This is another one of my Tobey/Bully Maguire and MCU Mashups in which Tobey Maguire tries to call Peter Parker but Peter isn't so keen to answer... This video uses footage from Marvels and Sonys Spider Man: Far From Home and from Sony's Spider Man 2!\n\nLet's hope Tobey cameos in Spider Man Into The Spider-Verse 2\n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\nFor the full playlist of my edits click here: https://www.youtube.com/watch?v=Wp_M6wHKb-k&list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\nPizza Time for Thanos: https://www.youtube.com/watch?v=duR8-pwt7sM\nIron Man, Gonna Cry?: https://www.youtube.com/watch?v=kTfKivTB_cc\nBully Maguire Arrives In Wakanda: https://youtu.be/qriwa-fNUzE\nBully Maguire Bullies Peter Parker: https://www.youtube.com/watch?v=oMT6o10kYeY\n\n#TobeyMaguire #TobeyInTheMCU #SpiderVerse2 #SpiderMan",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/WajX4TLOurU/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/WajX4TLOurU/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/WajX4TLOurU/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/WajX4TLOurU/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/WajX4TLOurU/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 39,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "WajX4TLOurU"
+				}
+			},
+			"contentDetails": {
+				"videoId": "WajX4TLOurU",
+				"videoPublishedAt": "2019-11-05T20:43:00Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "d8bKqQcER53ThankFB-W-9tQh5M",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LjNDMUE3REY3M0VEQUIyMEQ=",
+			"snippet": {
+				"publishedAt": "2019-11-02T20:11:16Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Peter Parker vs The High Ground",
+				"description": "Tobey Maguire gets into a situation where Obi-Wan has the high ground, watch to see what happens.\n\nThis is another Tobey/Bully Maguire and Star Wars Mashup.\nThis video uses footage from the High Ground scene from Star Wars Episode III: Revenge of the Sith and from Sony's Spider Man 1, 2 and 3!\n\nThis video basically combines prequel memes and Tobey memes.\n\n\"I have the high ground!\" \n\"I missed the part where that's my problem\"\n\"See ya chump\"\n\"So uncivilised\"\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\nThis video is sort of like the prequel to Tobey Reveals the Truth about Luke's Father (cause Tobey is Darth Vader in both of em). So if you want to watch that click here: https://www.youtube.com/watch?v=Gve2Cyk6s6E\n\nTobey Maguire Edits playlist: \nhttps://www.youtube.com/watch?v=duR8-pwt7sM&list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\nThe Rise of Skywalker is releasing soon!\n\n#BullyMaguire #TobeyInStarWars #SpiderMan",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/Wp_M6wHKb-k/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/Wp_M6wHKb-k/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/Wp_M6wHKb-k/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/Wp_M6wHKb-k/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 40,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "Wp_M6wHKb-k"
+				}
+			},
+			"contentDetails": {
+				"videoId": "Wp_M6wHKb-k",
+				"videoPublishedAt": "2019-11-02T20:19:21Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "0qpS-66Li8XUGSBNoBCMusJq8Hs",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93Ljk2RUQ1OTFEN0JBQUEwNjg=",
+			"snippet": {
+				"publishedAt": "2019-10-22T18:56:09Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Peter Parker eats a hotdog while The Avengers fight Thanos",
+				"description": "This is another one of my Tobey/Bully Maguire and MCU Mashup in which The Avengers are fighting Thanos in an epic final battle without much help from Tobey (Peter Parker), who is eating a hot dog... This video uses footage from Marvels Avengers: Endgame and from Sony's Spider Man 2!\n\n\"Raindrops keep falling on my head\" \n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\nTobey Maguire Edits playlist: https://www.youtube.com/watch?v=duR8-pwt7sM&list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\n#TobeyMaguire #TobeyInTheMCU #Endgame",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/VNooFyd1suU/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/VNooFyd1suU/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/VNooFyd1suU/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/VNooFyd1suU/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/VNooFyd1suU/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 41,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "VNooFyd1suU"
+				}
+			},
+			"contentDetails": {
+				"videoId": "VNooFyd1suU",
+				"videoPublishedAt": "2019-10-22T19:08:03Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "htISvMUY6KFrMeI9bCQeZt-YFg0",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LkM2QzBFQjYyQjhCQjg0MUY=",
+			"snippet": {
+				"publishedAt": "2019-10-18T14:22:52Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Tobey Delivers Pizza in a Galaxy Far Far Away",
+				"description": "The entire galaxy, including R2D2 and Darth Vader, are ordering and looking for Tobey Maguire's pizza, with a 29-minute guarantee, of course.\n\nBasically, Tobey's pizzas are in demand throughout the entire galaxy.\nThe Rebels, the Empire- they all want pizza time.\n\nThis is another Tobey/Bully Maguire and Star Wars Mashup.\nThis video uses footage from the opening scene of Star Wars Episode IV: A New Hope and from Sony's Spider Man 2 and 3!\n\n\"Pizza Time\" \n\"See ya chump\"\n\nSpecial thanks to Aldo Jones, Meme Green Screen and to ChaoticBits for the Tobey footage used in this video. It really saved me a ton of time! \n\nLinks to the green screen footage: \n1. https://www.youtube.com/watch?v=4LB5Kbew_8U\n2. https://www.youtube.com/watch?v=ik_Tx7YA0T0\n3. https://www.youtube.com/watch?v=H2mH4SHhTsQ\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\nTobey Maguire Edits playlist: \nhttps://www.youtube.com/watch?v=duR8-pwt7sM&list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\nThe Rise of Skywalker is releasing soon!\n\n#BullyMaguire #TobeyInStarWars #SpiderMan",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/AFE4SNF6NXY/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/AFE4SNF6NXY/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/AFE4SNF6NXY/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/AFE4SNF6NXY/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 42,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "AFE4SNF6NXY"
+				}
+			},
+			"contentDetails": {
+				"videoId": "AFE4SNF6NXY",
+				"videoPublishedAt": "2019-10-18T14:37:47Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "vyVeXZhlQLTbS09ehl4d8AZfuCQ",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LkNFRDA4MzFDNTJFOUZGRjc=",
+			"snippet": {
+				"publishedAt": "2019-10-17T19:24:39Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Bully Maguire Fakes his Death",
+				"description": "This is a Tobey/Bully Maguire and Harry Potter Mashup. In this video, Tobey fakes his own death, comes back to life and puts some dirt in Voldemorts eye. This video uses footage from Sonys Spider Man 1, 2,3 and from Harry Potter and the Deathly Hallows Part 2.\n\n\"My back!\"\n\"I'm gonna put some dirt in your eye\"\n\"You're trash\"\n\"Cya Chump\"\n\n\"yer a wizard Tobey\"\n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\n\"yer a wizard Tobey\"\n\n#BullyMaguire #TobeyInHarryPotter #SpiderMan\n\nTobey Maguire Edits playlist: https://www.youtube.com/playlist?list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/Nhr29i8zrBI/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/Nhr29i8zrBI/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/Nhr29i8zrBI/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/Nhr29i8zrBI/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 43,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "Nhr29i8zrBI"
+				}
+			},
+			"contentDetails": {
+				"videoId": "Nhr29i8zrBI",
+				"videoPublishedAt": "2019-10-17T19:36:42Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "pRMqX67RcIEnZ3E5VE3JvfVMNjM",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LjUzNjgzNzA5QUVFRTdDMTE=",
+			"snippet": {
+				"publishedAt": "2019-10-02T20:30:52Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Bully Maguire Photographs Peter Parker",
+				"description": "This is another one of my Tobey/Bully Maguire and MCU Mashup. This video uses footage from Marvels and Sonys Spider Man: Far From Home and from Sony's Spider Man!\n\n\"That's a cute outfit, did your husband give it to you?\" \n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.\n\nTobey takes some pictures of Peter Parker right after he takes off his pants, and he then proceeds to get bitten by a radioactive Spider and becomes Spider Man!\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\n#BullyMaguire #TobeyInTheMCU #SpiderMan\n\nTobey Maguire Edits playlist: https://www.youtube.com/playlist?list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/Dyz4ceu0qTM/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/Dyz4ceu0qTM/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/Dyz4ceu0qTM/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/Dyz4ceu0qTM/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/Dyz4ceu0qTM/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 44,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "Dyz4ceu0qTM"
+				}
+			},
+			"contentDetails": {
+				"videoId": "Dyz4ceu0qTM",
+				"videoPublishedAt": "2019-10-02T20:39:33Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "_shwncooW5a553KH6vDieWLfVhI",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LjJCNkVGQTFCMUY4OTdFQUM=",
+			"snippet": {
+				"publishedAt": "2019-09-28T20:24:53Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Tobey Reveals the Truth about Luke's Father",
+				"description": "Tobey tells Luke Skywalker the truth about his father.\n\nThis is my first Tobey/Bully Maguire and Star Wars Mashup.\nThis video uses footage from the I am your Father scene from Star Wars Episode V: The Empire Strikes Back and from Sony's Spider Man 3!\n\n\"Look at little Skywalker Junior, Gonna Cry?\" \n\"See ya chump\"\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\nTobey Maguire Edits playlist: \nhttps://www.youtube.com/watch?v=duR8-pwt7sM&list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\nThe Rise of Skywalker is releasing soon!\n\n#BullyMaguire #TobeyInStarWars #SpiderMan",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/Gve2Cyk6s6E/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/Gve2Cyk6s6E/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/Gve2Cyk6s6E/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/Gve2Cyk6s6E/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/Gve2Cyk6s6E/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 45,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "Gve2Cyk6s6E"
+				}
+			},
+			"contentDetails": {
+				"videoId": "Gve2Cyk6s6E",
+				"videoPublishedAt": "2019-09-28T22:04:49Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "lkikPc4e0lehnsQz3GVfLeo6TlY",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LjJBQkU1RUIzNUM2NzFFOUU=",
+			"snippet": {
+				"publishedAt": "2019-09-27T14:16:34Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Tobey Maguire Sacrifices Black Widow",
+				"description": "Tobey has to make the tough decision and let Natasha sacrifice herself for the soul stone.\n\nThis is another one of my Tobey/Bully Maguire and MCU Mashup.\nThis video uses footage from Marvels Avengers Endgame and from Sony's Spider Man 3!\n\n\"NO Please, please don't say that\" \n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\nTobey Maguire Edits playlist: \nhttps://www.youtube.com/watch?v=duR8-pwt7sM&list=PLhfVFk3GcRjqvPXh46xOrU6_zD6LgNqCA\n\n#BullyMaguire #TobeyInTheMCU #Endgame",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/qquB5qBYV6Q/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/qquB5qBYV6Q/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/qquB5qBYV6Q/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/qquB5qBYV6Q/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/qquB5qBYV6Q/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 46,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "qquB5qBYV6Q"
+				}
+			},
+			"contentDetails": {
+				"videoId": "qquB5qBYV6Q",
+				"videoPublishedAt": "2019-09-27T15:13:22Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "UI0VZH71LnolQBRti70pQCXVxZ0",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LjRDNEM4RTRBRjA1QjE3QzU=",
+			"snippet": {
+				"publishedAt": "2019-09-24T12:05:03Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Back to the Future Starring Tobey Maguire",
+				"description": "This is a bit of a departure from the usual Bully Maguire in the MCU, so I hope you like it! \n\nThis is my first Tobey/Bully Maguire and Back to the Future Mashup in which you get to see Bully Maguire in various scenes throughout Back to the Future with his iconic lines. This video uses footage from Marvels and Sonys Spider Man 1, 2 and 3 and from Back to the Future of course!\n\n(Tobey Scream)\n\"Hey everyone!\"\n\"I'm gonna put some dirt in your eye\"\n\"I missed the part where that's my problem\"\n\"I'm back! I'M BACK!!\"\n\"I had to beat an old lady with a stick to get this\"\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\nDisney is Altering The Deal: https://www.youtube.com/watch?v=PcmCpQY5Vww\nPizza Time for Thanos: https://www.youtube.com/watch?v=duR8-pwt7sM\nIron Man, Gonna Cry?: https://www.youtube.com/watch?v=kTfKivTB_cc\nBully Maguire Arrives In Wakanda: https://youtu.be/qriwa-fNUzE\nBully Maguire Bullies Peter Parker: https://www.youtube.com/watch?v=oMT6o10kYeY\n\n#TobeyMaguire #BackToTheFuture #SpiderMan #Bully Maguire",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/3jDs30dojiI/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/3jDs30dojiI/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/3jDs30dojiI/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/3jDs30dojiI/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/3jDs30dojiI/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 47,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "3jDs30dojiI"
+				}
+			},
+			"contentDetails": {
+				"videoId": "3jDs30dojiI",
+				"videoPublishedAt": "2019-09-24T13:57:27Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "LT9EhcI8e4V3TlQm4mR1gTE9bp4",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LjVFM0FERjAyQjlDNTdGRjY=",
+			"snippet": {
+				"publishedAt": "2019-09-21T18:34:16Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Tobey and Tom Discuss Spider Man",
+				"description": "I tired a new method of putting Tobey into scenes, I hope you guys like it and be sure to give me feedback!\n\nThanks so much for 1K subscribers! Didn't think I'd get this far so quickly!!\n\nThis is another one of my Tobey/Bully Maguire and MCU Mashup in which Bully Maguire mentors Tom Holland about being Spider Man! This video uses footage from Sony and Marvels Spider-Man: Far From Home and from Sony's Spider Man 3!\n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\nDisney is Altering The Deal: https://www.youtube.com/watch?v=PcmCpQY5Vww\nPizza Time for Thanos: https://www.youtube.com/watch?v=duR8-pwt7sM\nIron Man, Gonna Cry?: https://www.youtube.com/watch?v=kTfKivTB_cc\nBully Maguire Bullies Peter Parker: https://www.youtube.com/watch?v=oMT6o10kYeY\nBully Maguire Arrives In Wakanda: https://www.youtube.com/watch?v=qriwa-fNUzE\n\n#BullyMaguire #FarFromHome #TobeyInTheMCU #SpiderMan",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/B6Uako5Zy-s/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/B6Uako5Zy-s/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/B6Uako5Zy-s/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/B6Uako5Zy-s/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/B6Uako5Zy-s/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 48,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "B6Uako5Zy-s"
+				}
+			},
+			"contentDetails": {
+				"videoId": "B6Uako5Zy-s",
+				"videoPublishedAt": "2019-09-21T19:17:24Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "ONRjxRC0_9YbQA44Igs6zX-IbAs",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LkQ2MjVBQjQwMjk0RDM4MUQ=",
+			"snippet": {
+				"publishedAt": "2019-09-19T20:45:09Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Bully Maguire Arrives In Wakanda (Old Version)",
+				"description": "Special Thanks to Harry for suggesting this video! \nhttps://www.youtube.com/channel/UCV9RG-uIDeVeAigmE8Q-obw\n\nThis is another one of my Tobey/Bully Maguire and MCU Mashup in which Bully Maguire saves the day! This video uses footage from Marvels Avengers: Infinity War and from Sony's Spider Man 2 and 3!\n\n\"I'm BACK! I'M BACK!!\" \n\"I'm gonna put some dirt in your eye\"\n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\nDisney is Altering The Deal: https://www.youtube.com/watch?v=PcmCpQY5Vww\nPizza Time for Thanos: https://www.youtube.com/watch?v=duR8-pwt7sM\nIron Man, Gonna Cry?: https://www.youtube.com/watch?v=kTfKivTB_cc\nBully Maguire Bullies Peter Parker: https://www.youtube.com/watch?v=oMT6o10kYeY\n\n#BullyMaguire #TobeyInTheMCU #SpiderMan",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/qriwa-fNUzE/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/qriwa-fNUzE/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/qriwa-fNUzE/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/qriwa-fNUzE/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/qriwa-fNUzE/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 49,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "qriwa-fNUzE"
+				}
+			},
+			"contentDetails": {
+				"videoId": "qriwa-fNUzE",
+				"videoPublishedAt": "2019-09-19T21:26:21Z"
+			}
+		}
+	],
+	"pageInfo": {
+		"totalResults": 55,
+		"resultsPerPage": 50
+	}
+}

@@ -1,0 +1,251 @@
+{
+	"kind": "youtube#playlistItemListResponse",
+	"etag": "Q8MtuYMycvCnGtlGk2W2h7rYORw",
+	"prevPageToken": "CDIQAQ",
+	"items": [
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "hCPSCUHMAEtKo6vGSuLLAZRvquQ",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LjhDNUZBRTZCMTY0ODEzQzg=",
+			"snippet": {
+				"publishedAt": "2019-09-03T20:44:26Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Bully Maguire Bullies Peter Parker",
+				"description": "This is another one of my Tobey/Bully Maguire and MCU Mashup in which Bully Maguire Bullies Peter Parker after he makes so mistakes... This video uses footage from Marvels and Sonys Spider Man: Homecoming and from Sony's Spider Man 3!\n\n\"You're trash\" \n\"I'm gonna put some dirt in your eye\"\n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\nDisney is Altering The Deal: https://www.youtube.com/watch?v=PcmCpQY5Vww\nPizza Time for Thanos: https://www.youtube.com/watch?v=duR8-pwt7sM\nIron Man, Gonna Cry?: https://www.youtube.com/watch?v=kTfKivTB_cc\nBully Maguire Arrives In Wakanda: https://youtu.be/qriwa-fNUzE\n\n#BullyMaguire #TobeyInTheMCU #SpiderMan",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/oMT6o10kYeY/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/oMT6o10kYeY/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/oMT6o10kYeY/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/oMT6o10kYeY/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/oMT6o10kYeY/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 50,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "oMT6o10kYeY"
+				}
+			},
+			"contentDetails": {
+				"videoId": "oMT6o10kYeY",
+				"videoPublishedAt": "2019-09-03T20:58:36Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "l3itHirubLPqKEQtFJmgIYwtwJs",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LjEzODAzMERGNDg2MTM1QTk=",
+			"snippet": {
+				"publishedAt": "2019-08-31T18:28:44Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "The Stones aren't Tobeys Problem",
+				"description": "This is another one of my Tobey/Bully Maguire and MCU Mashup in which Tobey misses the part where the stones are his problem. This video uses footage from Marvels Avengers Endgame and from Sony's Spider Man!\n\n\"I missed the part where that's my problem\"\n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\nDisney is Altering The Deal: https://www.youtube.com/watch?v=PcmCpQY5Vww\nPizza Time for Thanos: https://www.youtube.com/watch?v=duR8-pwt7sM\nIron Man, Gonna Cry?: https://www.youtube.com/watch?v=kTfKivTB_cc\n\n#BullyMaguire #TobeyInTheMCU #Endgame",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/9hFGT0rPCh8/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/9hFGT0rPCh8/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/9hFGT0rPCh8/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/9hFGT0rPCh8/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/9hFGT0rPCh8/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 51,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "9hFGT0rPCh8"
+				}
+			},
+			"contentDetails": {
+				"videoId": "9hFGT0rPCh8",
+				"videoPublishedAt": "2019-08-31T18:34:27Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "AlwJWFAQe8mNJKkRD0-KU-gvcg0",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LjMwRDUwQjJFMUY3OENDMUE=",
+			"snippet": {
+				"publishedAt": "2019-08-22T12:36:15Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Disney is Altering The Deal",
+				"description": "Recently Disney tried to alter the deal they had with Sony regarding Spider Man, Sony didn't approve and Spider Man in the MCU is no more :(\n\nThe internet is going crazy about this sudden news, and I too am pretty sad to see one of my favourite Marvel Cinematic Universe characters leave.\n\nI wanted to make a little meme thing about and here it is. I hope you like it, This is from Star Wars The Empire Strikes Back.\n\nIf you like what you see, be sure to like, comment, share and subscribe!\n\nThanos Orders Pizza: https://www.youtube.com/watch?v=duR8-pwt7sM\nIron Man, Gonna Cry: https://www.youtube.com/watch?v=kTfKivTB_cc\n\n#SaveSpidey #SaveSpiderMan #SonyVsDisney",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/PcmCpQY5Vww/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/PcmCpQY5Vww/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/PcmCpQY5Vww/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/PcmCpQY5Vww/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 52,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "PcmCpQY5Vww"
+				}
+			},
+			"contentDetails": {
+				"videoId": "PcmCpQY5Vww",
+				"videoPublishedAt": "2019-08-22T12:49:15Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "KbvpU_np-0UgpKoTzpyLYlbkXpQ",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LjZDOTkyQTNCNUVCNjBEMDg=",
+			"snippet": {
+				"publishedAt": "2019-08-20T13:12:10Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Iron Man, Gonna Cry?",
+				"description": "This is another one of my Tobey/Bully Maguire and MCU Mashup in which Tony Stark complains to Tobey about losing to Thanos. This video uses footage from Marvels Avengers Endgame and from Sony's Spider Man 3!\n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\nDisney is Altering The Deal: https://www.youtube.com/watch?v=PcmCpQY5Vww\nThanos Orders Pizza: https://www.youtube.com/watch?v=duR8-pwt7sM\nBully Maguire Bullies Peter Parker: https://youtu.be/oMT6o10kYeY\n\n#BullyMaguire #TobeyInTheMCU #Endgame",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/kTfKivTB_cc/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/kTfKivTB_cc/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/kTfKivTB_cc/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/kTfKivTB_cc/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/kTfKivTB_cc/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 53,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "kTfKivTB_cc"
+				}
+			},
+			"contentDetails": {
+				"videoId": "kTfKivTB_cc",
+				"videoPublishedAt": "2019-08-20T13:28:27Z"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "2igF84BbdIt-t00qymWA8M5eNYQ",
+			"id": "VVUzaVNLYjdZYlZ1c2phemRBazNhSl93LjU1NkQ5OEE1OEU5RUZCRUE=",
+			"snippet": {
+				"publishedAt": "2019-08-13T19:16:54Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Pizza Time for Thanos",
+				"description": "This is something different than what I have on this channel, I hope you like it, you'll be seeing some more in the next few days!\n\nThis is my first Tobey/Bully Maguire and MCU Mashup in which Thanos thinks it's Pizza Time. This video uses footage from the Final Battle in Marvels Avengers Endgame and the opening scene of Sony's Spider Man 2!\n\nI want to give credit to channels like Tobey in the MCU and Aldo Jones for the idea for this type of video.\n\nIf you like what you see be sure to like, comment, share and subscribe!\n\nIron Man, Gonna Cry?: https://www.youtube.com/watch?v=kTfKivTB_cc\nDisney is Altering The Deal: https://www.youtube.com/watch?v=PcmCpQY5Vww\n\n#PizzaTime #TobeyInTheMCU #Endgame",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/duR8-pwt7sM/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/duR8-pwt7sM/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/duR8-pwt7sM/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/duR8-pwt7sM/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/duR8-pwt7sM/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"playlistId": "UU3iSKb7YbVusjazdAk3aJ_w",
+				"position": 54,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "duR8-pwt7sM"
+				}
+			},
+			"contentDetails": {
+				"videoId": "duR8-pwt7sM",
+				"videoPublishedAt": "2019-08-13T19:40:24Z"
+			}
+		}
+	],
+	"pageInfo": {
+		"totalResults": 55,
+		"resultsPerPage": 50
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"kind": "youtube#searchListResponse",
+	"etag": "fyosy4cA4uA64AnlD-zumc3E4uw",
+	"nextPageToken": "CAEQAA",
+	"regionCode": "DE",
+	"pageInfo": {
+		"totalResults": 126,
+		"resultsPerPage": 1
+	},
+	"items": [
+		{
+			"kind": "youtube#searchResult",
+			"etag": "YS-KG4DnZhUgvzfmvK4Zwxk-VJ4",
+			"id": {
+				"kind": "youtube#channel",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w"
+			},
+			"snippet": {
+				"publishedAt": "2015-04-03T07:01:07Z",
+				"channelId": "UC3iSKb7YbVusjazdAk3aJ_w",
+				"title": "Matan Animation Studios",
+				"description": "Hi, my name is Matan. I create Tobey Maguire memes/videos based on the original Sam Raimi Spider-Man trilogy. I hope you enjoy them!",
+				"thumbnails": {
+					"default": {
+						"url": "https://yt3.ggpht.com/a/AATXAJwLRlmnKuyIXeiYE9sK1yQlgNuSD7MBO2o4kZZCLA=s88-c-k-c0xffffffff-no-rj-mo"
+					},
+					"medium": {
+						"url": "https://yt3.ggpht.com/a/AATXAJwLRlmnKuyIXeiYE9sK1yQlgNuSD7MBO2o4kZZCLA=s240-c-k-c0xffffffff-no-rj-mo"
+					},
+					"high": {
+						"url": "https://yt3.ggpht.com/a/AATXAJwLRlmnKuyIXeiYE9sK1yQlgNuSD7MBO2o4kZZCLA=s800-c-k-c0xffffffff-no-rj-mo"
+					}
+				},
+				"channelTitle": "Matan Animation Studios",
+				"liveBroadcastContent": "none",
+				"publishTime": "2015-04-03T07:01:07Z"
+			}
+		}
+	]
+}

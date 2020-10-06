@@ -13,7 +13,8 @@ export default class PlyrComponent extends Component {
 
   @action initPlyr(e) {
     this.player = new Plyr(e, {
-      debug: (config.environment == 'development')
+      debug: (config.environment == 'development'),
+      autoplay: true
     })
 
     this.player.on("ready", (event) => {
@@ -29,6 +30,7 @@ export default class PlyrComponent extends Component {
 
   @action setActiveVideo(index, play = false) {
     // this.activeVideo = this.args.videos[index];
+    this.currentVideoIndex = index;
     console.debug('setActiveVideo ', index)
     this.player.source = {
       type: 'video',

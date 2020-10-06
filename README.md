@@ -3,6 +3,7 @@
 Take control over **your** you**tube** subscriptions.
 
 - Watch all their uploads, chronologically.
+- Watch any channels' uploads
 
 ## Prerequisites
 

@@ -6,7 +6,7 @@ export default class LocalAdapter extends RESTAdapter {
   @service youtube
 
   async findAll(store, type) {
-    const res = await fetch('/youtube_v3_api_response.json')
+    const res = await fetch('/youtube_v3/subscriptions/list/mine_snippet.json')
     const json = await res.json()
 
     console.debug(json)
@@ -14,7 +14,7 @@ export default class LocalAdapter extends RESTAdapter {
   }
 
   async findRecord(store, type, id, snapshot) {
-    const res = await fetch('/youtube_v3_api_response_2.json')
+    const res = await fetch('/youtube_v3/channels/list/stockedup.json')
     const json = await res.json()
 
     console.debug(json)

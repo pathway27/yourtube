@@ -25,7 +25,18 @@
     {{#if youtube.isAuthenticated}}
       Go to My Subscriptions
     {{else}}
-      Please login
+      Please login or
     {{/if}}
   {{/mdc-layout-grid-cell}}
+
+  {{#mdc-layout-grid-cell columns=12}}
+    <div class="container">
+      {{mdc-textfield label="Put a channel ID or URL here" style="outlined"
+        change=(action "search")
+        enter=(action "search") value=searchValue
+        trailingIcon=(hash icon="search" clickable=true click=(action "search"))}}
+    </div>
+  {{/mdc-layout-grid-cell}}
 {{/mdc-layout-grid}}
+
+

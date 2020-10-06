@@ -2,7 +2,9 @@
   {{#mdc-top-app-bar-row}}
     {{#mdc-top-app-bar-section}}
       {{!-- {{mdc-top-app-bar-navigate-up-to "index"}} --}}
-      {{#mdc-top-app-bar-title}}Yourtube{{/mdc-top-app-bar-title}}
+      <LinkTo @route="index" style=>
+        {{#mdc-top-app-bar-title}}Yourtube{{/mdc-top-app-bar-title}}
+      </LinkTo>
     {{/mdc-top-app-bar-section}}
   
     {{#mdc-top-app-bar-section position="alignEnd"}}

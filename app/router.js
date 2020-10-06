@@ -11,6 +11,8 @@ Router.map(function() {
     this.route('channel', { path: '/:channel' });
   });
 
+  this.route('search', { path: '/:uri' });
+
   this.route('about');
   this.route('privacy');
 });

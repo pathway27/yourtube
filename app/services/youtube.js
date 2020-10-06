@@ -2,7 +2,7 @@
 /*global gapi*/
 
 import Service from '@ember/service';
-import config from '../config/environment';
+import config from 'yourtube/config/environment';
 import { tracked } from '@glimmer/tracking';
 
 export default class YoutubeService extends Service {

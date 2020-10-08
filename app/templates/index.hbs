@@ -28,15 +28,22 @@
       Please login or
     {{/if}}
   {{/mdc-layout-grid-cell}}
-
-  {{#mdc-layout-grid-cell columns=12}}
-    <div class="container">
-      {{mdc-textfield label="Put a channel ID or URL here" style="outlined"
-        change=(action "search")
-        enter=(action "search") value=searchValue
-        trailingIcon=(hash icon="search" clickable=true click=(action "search"))}}
-    </div>
-  {{/mdc-layout-grid-cell}}
 {{/mdc-layout-grid}}
 
+<div class="container">
+  {{mdc-textfield label="Put a Youtube channel ID or URL of a channel here"
+    style="fullwidth"
+    change=(action "search")
+    enter=(action "search") value=searchValue
+    trailingIcon=(hash icon="search" clickable=true click=(action "search"))}}
+</div>
 
+<br />
+
+<div class="container">
+  {{mdc-textfield label="Put a reddit thread here"
+    style="fullwidth"
+    change=(action "search")
+    enter=(action "search") value=searchValue
+    trailingIcon=(hash icon="search" clickable=true click=(action "search"))}}
+</div>

@@ -60,6 +60,7 @@ module.exports = function(environment) {
   if (environment === 'production') {
     ENV.rootURL = '/yourtube/';
     ENV.APP.useLocalJSON = false;
+    ENV.locationType = 'hash';
   }
 
   return ENV;

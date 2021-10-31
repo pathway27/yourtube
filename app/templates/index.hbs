@@ -1,25 +1,3 @@
-{{#if development}}
-  {{#mdc-layout-grid}}
-    {{#mdc-layout-grid-cell desktopColumns=4 tabletColumns=4 phoneColumns=4}}
-      youtube.isAuthenticated: {{youtube.isAuthenticated}}
-    {{/mdc-layout-grid-cell}}
-
-    {{#mdc-layout-grid-cell desktopColumns=4 tabletColumns=4 phoneColumns=4}}
-      this.authenticated: {{this.authenticated}}
-    {{/mdc-layout-grid-cell}}
-
-    {{#mdc-layout-grid-cell desktopColumns=4 tabletColumns=4 phoneColumns=4}}
-      authenticated: {{authenticated}}
-    {{/mdc-layout-grid-cell}}
-  {{/mdc-layout-grid}}
-
-  {{#mdc-layout-grid}}
-    {{#mdc-layout-grid-cell columns=12}}
-      youtube.user: {{json youtube.user}}
-    {{/mdc-layout-grid-cell}}
-  {{/mdc-layout-grid}}
-{{/if}}
-
 <div class="container">
   <h3>Bingeable Channels</h3>
   <ul id="bingeable-channels">

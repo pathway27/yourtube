@@ -46,15 +46,35 @@
   </ul>
 </div>
 
-{{#mdc-layout-grid}}
-  {{#mdc-layout-grid-cell columns=12}}
-    {{#if youtube.isAuthenticated}}
-      My Subscriptions
-    {{else}}
-      Please login or
-    {{/if}}
-  {{/mdc-layout-grid-cell}}
-{{/mdc-layout-grid}}
+<div class="container">
+  {{#if youtube.isAuthenticated}}
+    <h3>My Subscriptions</h3>
+    <ul id="bingeable-channels">
+      <li>
+        <LinkTo @route="youtube" @model="https://www.youtube.com/c/TrevorWallace">
+          <img class="yt-img-shadow" width="80" alt="" src="https://yt3.ggpht.com/ytc/AKedOLSD50ULpH7DbTcz7iJAIWxaTHC-HVXKMHYNYskutQ=s88-c-k-c0x00ffffff-no-rj" />
+        </LinkTo>
+      </li>
+      <li>
+        <LinkTo @route="youtube" @model="https://www.youtube.com/c/superwog">
+          <img class="yt-img-shadow" width="80" alt="" src="https://yt3.ggpht.com/ytc/AKedOLQFjw-99UtZpSpcxrUG9eN35xGpDvmp8XrzbLoerQ=s88-c-k-c0x00ffffff-no-rj" />
+        </LinkTo>
+      </li>
+      <li>
+        <LinkTo @route="youtube" @model="https://www.youtube.com/c/GarnComedy">
+          <img class="yt-img-shadow" width="80" alt="" src="https://yt3.ggpht.com/ytc/AKedOLTVJOswaNZy9fvEsHPkNhefTerEe43BrovJ0PFA=s88-c-k-c0x00ffffff-no-rj" />
+        </LinkTo>
+      </li>
+      <li>
+        <LinkTo @route="youtube" @model="https://www.youtube.com/user/BroScienceLife">
+          <img class="yt-img-shadow" width="80" alt="" src="https://yt3.ggpht.com/ytc/AKedOLRUagr2zoOhu8TuRPL0FvzfJ04bUg5MCULWTA_JHA=s88-c-k-c0x00ffffff-no-rj" />
+        </LinkTo>
+      </li>
+    </ul>
+  {{else}}
+    <h3>Please Login Here</h3>
+  {{/if}}
+</div>
 
 <div class="container">
   {{mdc-textfield label="Put a Youtube channel ID or URL of a channel here"

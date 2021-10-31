@@ -11,7 +11,7 @@ Router.map(function() {
     this.route('channel', { path: '/:channel' });
   });
 
-  this.route('search', { path: '/:uri' });
+  this.route('search', { path: '/search/:uri' });
 
   // Change this to look like youtube's path
   this.route('youtube', { path: '/youtube/:uri' });

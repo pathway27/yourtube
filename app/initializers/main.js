@@ -1,4 +1,3 @@
-import Ember from 'ember';
 import { registerDeprecationHandler } from '@ember/debug';
 
 function initialize() {

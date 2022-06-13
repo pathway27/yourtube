@@ -1,40 +1,40 @@
-{{#mdc-layout-grid}}
-  {{#mdc-layout-grid-cell columns=4}}
+<MdcLayoutGrid>
+  <MdcLayoutGridCell @columns={{4}}>
 
-    {{#mdc-data-table label="Channels" data=filteredSubscriptions as |dataTable|}}
-      {{#mdc-data-table-header-row}}
-        {{#mdc-data-table-header-cell}}
-          {{#mdc-layout-grid}}
-            {{#mdc-layout-grid-cell columns=4}}
+    <MdcDataTable @label="Channels" @data={{filteredSubscriptions}} as |dataTable|>
+      <MdcDataTableHeaderRow>
+        <MdcDataTableHeaderCell>
+          <MdcLayoutGrid>
+            <MdcLayoutGridCell @columns={{4}}>
               Channels ({{filteredSubscriptions.length}})
-            {{/mdc-layout-grid-cell}}
+            </MdcLayoutGridCell>
 
-            {{#mdc-layout-grid-cell columns=8}}
+            <MdcLayoutGridCell @columns={{8}}>
               <div class="text-field-row">
                 <div class="text-field-container">
-                  {{mdc-textfield label="Search" style="standard" name="name" value=this.name }}
+                  <MdcTextfield @label="Search" @style="standard" @name="name" @value={{this.name}} />
                 </div>
               </div>
-            {{/mdc-layout-grid-cell}}
-          {{/mdc-layout-grid}}
-        {{/mdc-data-table-header-cell}}
-      {{/mdc-data-table-header-row}}
+            </MdcLayoutGridCell>
+          </MdcLayoutGrid>
+        </MdcDataTableHeaderCell>
+      </MdcDataTableHeaderRow>
 
-      {{#mdc-data-table-content}}
+      <MdcDataTableContent>
         {{#each dataTable.data as |subscription|}}
-          {{#mdc-data-table-row data=subscription}}
-            {{#mdc-data-table-cell}}
+          <MdcDataTableRow @data={{subscription}}>
+            <MdcDataTableCell>
               <LinkTo @route='subscriptions.channel' @model={{subscription.channel}}>
                 {{subscription.title}}
               </LinkTo>
-            {{/mdc-data-table-cell}}
-          {{/mdc-data-table-row}}
+            </MdcDataTableCell>
+          </MdcDataTableRow>
         {{/each}}
-      {{/mdc-data-table-content}}
-    {{/mdc-data-table}}
-  {{/mdc-layout-grid-cell}}
+      </MdcDataTableContent>
+    </MdcDataTable>
+  </MdcLayoutGridCell>
 
-  {{#mdc-layout-grid-cell columns=8}}
+  <MdcLayoutGridCell @columns={{8}}>
     {{outlet}}
-  {{/mdc-layout-grid-cell}}
-{{/mdc-layout-grid}}
+  </MdcLayoutGridCell>
+</MdcLayoutGrid>

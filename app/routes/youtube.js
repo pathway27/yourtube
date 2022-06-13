@@ -1,6 +1,8 @@
 /*jshint loopfunc:true */
 
-import SearchRoute from './search'
+import { Promise } from 'rsvp';
+
+import SearchRoute from './search';
 
 import config from 'yourtube/config/environment';
 
@@ -10,7 +12,7 @@ export default class YoutubeRoute extends SearchRoute {
     if (config.APP.useLocalJSON) {
       channelSearchResults = await (await fetch('/youtube_v3/search/list/q_MatanAnimationStudios.json')).json()
     } else {
-      channelSearchResults = await new Ember.RSVP.Promise((resolve, reject) => {
+      channelSearchResults = await new Promise((resolve, reject) => {
         gapi.client.youtube.search.list({
           part: 'snippet',
           q: username,
@@ -33,7 +35,7 @@ export default class YoutubeRoute extends SearchRoute {
     if (config.APP.useLocalJSON) {
       channel = await (await fetch('/youtube_v3/channels/list/MatanAnimationStudios.json')).json()
     } else {
-      channel = await new Ember.RSVP.Promise((resolve, reject) => {
+      channel = await new Promise((resolve, reject) => {
         gapi.client.youtube.channels.list({
           part: 'contentDetails',
           id: channelId,
@@ -57,7 +59,7 @@ export default class YoutubeRoute extends SearchRoute {
       const url = `/youtube_v3/playlistItems/list/MatanAnimationStudios_${nextPageToken || '1'}.json`
       playlistItems = await (await fetch(url)).json()
     } else {
-      playlistItems = await new Ember.RSVP.Promise((resolve, reject) => {
+      playlistItems = await new Promise((resolve, reject) => {
         gapi.client.youtube.playlistItems.list({
           part: 'contentDetails,snippet',
           playlistId: playlistId,

@@ -1,9 +1,5 @@
 <div class="container">
-  {{mdc-textfield label="Put a Youtube Channel ID or URL here or a reddit comments URL here"
-    style="fullwidth"
-    change=(action "search")
-    enter=(action "search") value=searchValue
-    trailingIcon=(hash icon="search" clickable=true click=(action "search"))}}
+  <MdcTextfield @label="Put a Youtube Channel ID or URL here or a reddit comments URL here" @style="fullwidth" @change={{action "search"}} @enter={{action "search"}} @value={{searchValue}} @trailingIcon={{hash icon="search" clickable=true click=(action "search")}} />
 </div>
 
 <br />
@@ -38,16 +34,16 @@
 
 <div class="container">
   {{#if youtube.isAuthenticated}}
-    {{#mdc-layout-grid}}
-      {{#mdc-layout-grid-cell columns=6}}
+    <MdcLayoutGrid>
+      <MdcLayoutGridCell @columns={{6}}>
         <h3>My Subscriptions</h3>
-      {{/mdc-layout-grid-cell}}
+      </MdcLayoutGridCell>
 
-      {{#mdc-layout-grid-cell class="alight-right" columns=6}}
+      <MdcLayoutGridCell @class="alight-right" @columns={{6}}>
         {{mdc-button-linkto "See All" "subscriptions" style="raised"
       trailingIcon="arrow_forward"}}
-      {{/mdc-layout-grid-cell}}
-    {{/mdc-layout-grid}}
+      </MdcLayoutGridCell>
+    </MdcLayoutGrid>
     
     <ul id="bingeable-channels">
       {{#each model as |video|}}

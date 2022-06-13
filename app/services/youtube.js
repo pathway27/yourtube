@@ -1,6 +1,8 @@
 /*eslint no-unused-vars: ["error", { "argsIgnorePattern": "^_" }]*/
 /*global gapi*/
 
+import { Promise } from 'rsvp';
+
 import Service from '@ember/service';
 import config from 'yourtube/config/environment';
 import { tracked } from '@glimmer/tracking';
@@ -24,7 +26,7 @@ export default class YoutubeService extends Service {
 
   loadGAPI() {
     var self = this;
-    return new Ember.RSVP.Promise(resolve => {
+    return new Promise(resolve => {
       if (this.gapiLoaded) {
         resolve({});
         return
@@ -43,7 +45,7 @@ export default class YoutubeService extends Service {
           console.log('Error: ' + reason);
         });
       })
-    })
+    });
   }
 
   handleAuthClick() {
@@ -171,4 +173,4 @@ export default class YoutubeService extends Service {
     });
     // handleAuthResult
   }
-};
+}

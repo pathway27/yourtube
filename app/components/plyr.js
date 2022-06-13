@@ -3,8 +3,7 @@ import Component from '@glimmer/component';
 import config from 'yourtube/config/environment';
 
 import { tracked } from '@glimmer/tracking';
-import { action } from '@ember/object';
-import { computed } from '@ember/object';
+import { action, computed } from '@ember/object';
 
 export default class PlyrComponent extends Component {
   @tracked videos = this.args.videos.reverse();

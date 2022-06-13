@@ -1,54 +1,52 @@
 {{page-title "Yourtube"}}
 
-{{#mdc-top-app-bar style="dense"}}
-  {{#mdc-top-app-bar-row}}
-    {{#mdc-top-app-bar-section}}
+<MdcTopAppBar @style="dense">
+  <MdcTopAppBarRow>
+    <MdcTopAppBarSection>
       {{!-- {{mdc-top-app-bar-navigate-up-to "index"}} --}}
       <LinkTo @route="index" style=>
-        {{#mdc-top-app-bar-title}}Yourtube{{/mdc-top-app-bar-title}}
+        <MdcTopAppBarTitle>Yourtube</MdcTopAppBarTitle>
       </LinkTo>
-    {{/mdc-top-app-bar-section}}
+    </MdcTopAppBarSection>
   
-    {{#mdc-top-app-bar-section position="alignEnd"}}
+    <MdcTopAppBarSection @position="alignEnd">
       <div>
         {{#if authenticated}}
-          {{mdc-top-app-bar-action-item icon="account_circle" click=(action (mut openMenu) true)}}
+          <MdcTopAppBarActionItem @icon="account_circle" @click={{action (mut openMenu) true}} />
         {{else}}
-          {{mdc-top-app-bar-action-item icon="more_vert" click=(action (mut openMenu) true)}}
+          <MdcTopAppBarActionItem @icon="more_vert" @click={{action (mut openMenu) true}} />
         {{/if}}
 
 
-        {{#mdc-menu position="fixed" open=openMenu anchorCorner="bottomRight"}}
-          {{#mdc-menu-list}}
+        <MdcMenu @position="fixed" @open={{openMenu}} @anchorCorner="bottomRight">
+          <MdcMenuList>
             {{mdc-menu-item-link-to "My Subscriptions" "subscriptions"}}
             {{mdc-menu-item-link-to "Privacy" "privacy"}}
             {{mdc-menu-item-link-to "About" "about"}}
 
-            {{mdc-list-divider}}
+            <MdcListDivider />
 
             <div {{on "click" this.gapi}}>
-              {{#mdc-menu-item}}
-                {{#mdc-menu-item-text}}
+              <MdcMenuItem>
+                <MdcMenuItemText>
                   {{#if authenticated}}
                     Sign Out
                   {{else}}
                     Sign In
                   {{/if}}
-                {{/mdc-menu-item-text}}
-              {{/mdc-menu-item}}
+                </MdcMenuItemText>
+              </MdcMenuItem>
             </div>
-          {{/mdc-menu-list}}
-        {{/mdc-menu}}
+          </MdcMenuList>
+        </MdcMenu>
       </div>
 
-    {{/mdc-top-app-bar-section}}
-  {{/mdc-top-app-bar-row}}
-{{/mdc-top-app-bar}}
+    </MdcTopAppBarSection>
+  </MdcTopAppBarRow>
+</MdcTopAppBar>
 
-{{#mdc-content}}
+<MdcContent>
   {{outlet}}
 
-  {{mdc-snackbar message=snackbar.message
-               action=snackbar.action
-               dismissible=snackbar.dismissible}}
-{{/mdc-content}}
+  <MdcSnackbar @message={{snackbar.message}} @action={{snackbar.action}} @dismissible={{snackbar.dismissible}} />
+</MdcContent>

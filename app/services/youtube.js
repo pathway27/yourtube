@@ -5,12 +5,15 @@ import Service from '@ember/service';
 import config from 'yourtube/config/environment';
 import { tracked } from '@glimmer/tracking';
 
+import { decodeJwt } from 'jose';
+
 export default class YoutubeService extends Service {
   @tracked gapiLoaded = false;
   @tracked isAuthenticated = false;
   @tracked user = null;
 
   token = null;
+  tokenClient = null;
   currentApiRequest = null;
   loading = false;
 
@@ -25,46 +28,50 @@ export default class YoutubeService extends Service {
   loadGAPI() {
     var self = this;
     return new Ember.RSVP.Promise(resolve => {
-      if (this.gapiLoaded) {
+      if (this.gapiLoaded && this.token) {
         resolve({})
         return
       }
+      
+      gapi.load('client', () => {
+        gapi.client.init({
+          // discoveryDocs: config.APP.DISCOVERY_DOCS
+        }).then(function() {
+          gapi.client.load('youtube');
+          console.debug('gapi.client.init then')
+          self.gapiLoaded = true
 
-      gapi.load('client:auth2', {
-        callback: () => {
-          console.debug('gapi.load callback')
-          
-          gapi.client.init({
-            apiKey: config.APP.GOOGLE_API_KEY,
-            clientId: config.APP.OAUTH_CLIENT_ID,
-            discoveryDocs: config.APP.DISCOVERY_DOCS,
-            scope: config.APP.GOOGLE_SCOPES
-          }).then(() => {
-            console.debug('gapi.client.init then')
-            this.gapiLoaded = true;
-
-            this.isAuthenticated = gapi.auth2.getAuthInstance().isSignedIn.get();
-            this.user = gapi.auth2.getAuthInstance().currentUser.get();
-
-            gapi.auth2.getAuthInstance().isSignedIn.listen((isSignedIn) => {
-              this.isAuthenticated = isSignedIn
-            });
-
-            gapi.auth2.getAuthInstance().currentUser.listen((user) => {
-              this.user = user
-            });
-
-            resolve({});
-          }, (err) => {
-            console.error('gapi.client.init error')
-            console.error(err)
-            resolve({});
-          });
-        },
-        onerror: () => {
-          console.log('gapi.load error')
-        }
+        }).then(function(response) {
+          console.log('discovery document loaded');
+        }, function(reason) {
+          console.log('Error: ' + reason);
+        });
       })
+
+      // google.accounts.id.initialize({
+      //   client_id: config.APP.OAUTH_CLIENT_ID,
+      //   scope: config.APP.GOOGLE_SCOPES,
+      //   callback: (CredentialResponse) => {
+      //     console.log('CredentialResponse', CredentialResponse);
+      //     const claims = decodeJwt(CredentialResponse.credential);
+      //     console.log(claims)
+      //     // this.isAuthenticated = isSignedIn
+      //     // this.user = user
+      //   }
+      // });
+      // google.accounts.id.prompt();
+
+      self.tokenClient = google.accounts.oauth2.initTokenClient({
+        client_id: config.APP.OAUTH_CLIENT_ID,
+        scope: config.APP.GOOGLE_SCOPES,
+        callback: (tokenResponse) => {
+          self.token = tokenResponse.access_token;
+          console.log('tokenResponse', tokenResponse);
+          this.isAuthenticated = true;
+          resolve({});
+        },
+      });
+      self.tokenClient.requestAccessToken();
     })
   }
 

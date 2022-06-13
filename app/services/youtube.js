@@ -19,59 +19,30 @@ export default class YoutubeService extends Service {
 
   init() {
     super.init(...arguments);
-
     console.debug('Yourtube Service');
-
-    var self = this;
   }
 
   loadGAPI() {
     var self = this;
     return new Ember.RSVP.Promise(resolve => {
-      if (this.gapiLoaded && this.token) {
-        resolve({})
+      if (this.gapiLoaded) {
+        resolve({});
         return
       }
       
       gapi.load('client', () => {
         gapi.client.init({
-          // discoveryDocs: config.APP.DISCOVERY_DOCS
         }).then(function() {
+          console.debug('gapi.client.init then');
           gapi.client.load('youtube');
-          console.debug('gapi.client.init then')
-          self.gapiLoaded = true
-
+          self.gapiLoaded = true;
         }).then(function(response) {
-          console.log('discovery document loaded');
+          console.log('discovery document loaded', response);
+          resolve({});
         }, function(reason) {
           console.log('Error: ' + reason);
         });
       })
-
-      // google.accounts.id.initialize({
-      //   client_id: config.APP.OAUTH_CLIENT_ID,
-      //   scope: config.APP.GOOGLE_SCOPES,
-      //   callback: (CredentialResponse) => {
-      //     console.log('CredentialResponse', CredentialResponse);
-      //     const claims = decodeJwt(CredentialResponse.credential);
-      //     console.log(claims)
-      //     // this.isAuthenticated = isSignedIn
-      //     // this.user = user
-      //   }
-      // });
-      // google.accounts.id.prompt();
-
-      self.tokenClient = google.accounts.oauth2.initTokenClient({
-        client_id: config.APP.OAUTH_CLIENT_ID,
-        scope: config.APP.GOOGLE_SCOPES,
-        callback: (tokenResponse) => {
-          self.token = tokenResponse.access_token;
-          console.log('tokenResponse', tokenResponse);
-          this.isAuthenticated = true;
-          resolve({});
-        },
-      });
-      self.tokenClient.requestAccessToken();
     })
   }
 
@@ -140,7 +111,11 @@ export default class YoutubeService extends Service {
   }
 
   subscriptions(pageToken) {
-    // if (!this.gapi) return
+    // let emptyJSON = {result: {}}
+    // let emptyPromise = new Ember.RSVP.Promise(resolve => {
+    //   resolve(emptyJSON);  
+    // })
+    // if (!this.gapiLoaded || !this.token) return emptyPromise
 
     var params = {
       'mine': 'true',

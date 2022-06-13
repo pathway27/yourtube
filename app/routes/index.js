@@ -6,6 +6,6 @@ export default class IndexRoute extends ApplicationRoute {
   @service store
 
   model() {
-    return this.store.findAll('subscription');
+    return [] || this.store.findAll('subscription');
   }
 }

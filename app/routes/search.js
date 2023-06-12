@@ -36,9 +36,9 @@ export default class SearchRoute extends ApplicationRoute {
     let url = this.handleUrl(uri)
 
     if (url.host && (url.host == 'www.reddit.com' || url.host == 'old.reddit.com'))
-      this.transitionTo('reddit', uri)
+      this.transitionTo('reddit', url.pathname)
     else 
-      this.transitionTo('youtube', uri)
+      this.transitionTo('youtube', url.pathname)
 
     // TOOD: handle a reddit url
     return videos;

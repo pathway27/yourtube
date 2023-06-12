@@ -9,13 +9,17 @@ export default class RedditRoute extends SearchRoute {
   }
 
   async model({uri}) {
-    const response = await (await fetch(`${uri}.json`)).json()
+    const response = await (await fetch(`https://old.reddit.com/${uri}.json`)).json()
     let op = response[0].data["children"][0]["data"]["selftext"]
-    const regex = /\(http.*yout[^)]*\)/gm
+    // const regexOld = /\(http.*yout[^)]*\)/gm
+    const regex = /\[([^\[\]]*)\]\((http.*yout[^)]*)\)/gm;
 
     const escaped_videos = [ ...op.matchAll(regex) ]
-    const videos = escaped_videos.map(a => a[0].slice(1, a.length-2))
+    console.log(escaped_videos);
 
-    return videos
+    const titles = escaped_videos.map(a => a[1])
+    const videos = escaped_videos.map(a => a[2])
+
+    return {videos: videos, titles: titles}
   }
 }

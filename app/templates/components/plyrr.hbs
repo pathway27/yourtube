@@ -1,13 +1,14 @@
 <div class="container">
+  <p>{{this.player.config.title}}</p> 
   <div class="player">
     <div class="js-player" id="plyr" data-plyr-provider="youtube"
          data-plyr-embed-id="{{this.currentVideoId}}" {{did-insert this.initPlyr}}></div>
     {{#if videos}}
       <div class="plyr-playlist-wrapper">
         <ul class="plyr-playlist">
-          {{#each videos as |video index|}}
-            <li {{on "click" (fn this.setActiveVideo index)}}>
-              {{index}}
+          {{#each titles as |title index|}}
+            <li class="{{if (eq index this.currentVideoIndex) 'pls-playing'}}" {{on "click" (fn this.setActiveVideo index)}}>
+              {{index}} - {{title}}
             </li>
             {{!-- <LinkTo @route="search" @query={{hash videoIndex=index}}>
               <li>{{video.snippet.title}}</li>

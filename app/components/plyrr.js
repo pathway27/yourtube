@@ -7,8 +7,18 @@ import { action, computed } from '@ember/object';
 
 export default class PlyrrComponent extends Component {
   @tracked videos = this.args.videos;
+  @tracked titles = this.args.titles;
   @tracked currentVideoIndex = 0;
-  @tracked player = null
+  @tracked player = null;
+  
+  get currentTime() {
+    return this.player?.currentTime
+  }
+
+  @computed('player.muted')
+  get muted() {
+    return this.player?.muted
+  }
 
   @action initPlyr(e) {
     this.player = new Plyr(e, {
@@ -17,12 +27,17 @@ export default class PlyrrComponent extends Component {
     })
 
     this.player.on("ready", (event) => {
-      console.log('ready')
+      console.debug('ready')
+      console.debug(this.videos)
+      console.debug(event)
+      this.player = event.detail.plyr
+      window.player = this.player;
+      this.titles[this.currentVideoIndex] = this.player.config.title
       // create buttons for previous/next
     })
 
     this.player.on("ended", (event) => {
-      console.log('ended')
+      console.debug('ended')
       this.setActiveVideo(this.currentVideoIndex + 1, true)
     })
   }
@@ -48,8 +63,17 @@ export default class PlyrrComponent extends Component {
     return this.videos[this.currentVideoIndex];
   }
 
+  @computed('videos', 'currentVideoIndex')
+  get currentTitle() {
+    return this.titles[this.currentVideoIndex];
+  }
+
   @computed('currentVideo')
   get currentVideoId() {
+    return this.currentVideo
+  }
+
+  currentVid(index) {
     return this.currentVideo
   }
 }
